@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap');
+
+:root {
+  --bg:            oklch(0.97 0.008 75);
+  --surface:       oklch(0.93 0.010 75);
+  --surface-deep:  oklch(0.89 0.012 72);
+  --ink:           oklch(0.15 0.020 55);
+  --body:          oklch(0.32 0.015 62);
+  --muted:         oklch(0.52 0.010 68);
+  --faint:         oklch(0.72 0.008 72);
+  --amber:         oklch(0.50 0.140 65);
+  --amber-bg:      oklch(0.50 0.140 65 / 0.09);
+  --amber-border:  oklch(0.50 0.140 65 / 0.32);
+  --strong:        oklch(0.20 0.018 55);
+  --gain:          oklch(0.38 0.120 145);
+  --gain-bg:       oklch(0.38 0.120 145 / 0.10);
+  --loss:          oklch(0.42 0.150 25);
+  --loss-bg:       oklch(0.42 0.150 25 / 0.10);
+  --border:        oklch(0.85 0.010 74);
+  --border-subtle: oklch(0.91 0.006 75);
+
+  --f-human: 'Young Serif', Georgia, serif;
+  --f-body:  'Figtree', system-ui, sans-serif;
+  --f-mono:  'JetBrains Mono', monospace;
+}

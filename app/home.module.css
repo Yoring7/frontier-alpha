@@ -1,0 +1,247 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ── Hero ── */
+.hero {
+  padding: 52px 32px 40px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 40px;
+  align-items: end;
+  border-bottom: 1px solid var(--border);
+}
+
+.heroLabel {
+  font-family: var(--f-mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.heroBrand {
+  font-family: var(--f-human);
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.025em;
+  margin-bottom: 20px;
+}
+
+.brandF { color: var(--ink); display: block; }
+.brandA { color: var(--amber); display: block; }
+
+.heroTagline {
+  font-family: var(--f-body);
+  font-size: 1.0rem;
+  color: var(--body);
+  max-width: 480px;
+  line-height: 1.65;
+}
+
+.heroRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.heroNav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.heroNavLink {
+  font-family: var(--f-mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  transition: color 0.15s;
+}
+
+.heroNavLink:hover { color: var(--amber); }
+
+/* ── Stats row ── */
+.statsRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid var(--border);
+}
+
+.stat {
+  padding: 20px 28px;
+  border-right: 1px solid var(--border-subtle);
+}
+
+.stat:last-child { border-right: none; }
+
+.statLabel {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.statValue {
+  font-family: var(--f-mono);
+  font-size: 1.60rem;
+  font-weight: 500;
+  color: var(--strong);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.statSub {
+  font-family: var(--f-mono);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.gain { color: var(--gain); }
+.loss { color: var(--loss); }
+
+/* ── Content row ── */
+.contentRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid var(--border);
+  min-height: 280px;
+}
+
+.chartSection {
+  padding: 24px 28px;
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+
+.chartLabel {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  flex-shrink: 0;
+}
+
+/* ── Nav grid ── */
+.navGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.navCard {
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 24px 22px;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.15s;
+}
+
+.navCard:nth-child(2n) { border-right: none; }
+.navCard:hover { background: var(--surface); }
+
+.cardNum {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  color: var(--faint);
+  letter-spacing: 0.10em;
+  margin-bottom: 12px;
+}
+
+.cardTitle {
+  font-family: var(--f-human);
+  font-size: 1.40rem;
+  color: var(--ink);
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+
+.cardTitle span { color: var(--amber); }
+
+.cardDesc {
+  font-family: var(--f-body);
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.cardMeta {
+  margin-top: 14px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.cardMetaVal {
+  font-family: var(--f-mono);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.cardMetaLabel {
+  font-family: var(--f-mono);
+  font-size: 0.70rem;
+  color: var(--faint);
+  letter-spacing: 0.05em;
+}
+
+/* ── Report strip ── */
+.reportStrip {
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+.reportStripLabel {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.reportBullets {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.reportBullet {
+  display: flex;
+  gap: 10px;
+  font-family: var(--f-body);
+  font-size: 0.83rem;
+  color: var(--body);
+  line-height: 1.5;
+}
+
+.bulletDot {
+  color: var(--amber);
+  flex-shrink: 0;
+  font-weight: 700;
+}
+
+.reportMore {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: var(--f-mono);
+  font-size: 0.70rem;
+  color: var(--amber);
+  letter-spacing: 0.06em;
+}
+
+.reportMore:hover { text-decoration: underline; }

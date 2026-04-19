@@ -1,0 +1,70 @@
+.header {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+  display: flex;
+  align-items: stretch;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.brand {
+  font-family: var(--f-human);
+  font-size: 1.20rem;
+  letter-spacing: -0.02em;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding-right: 28px;
+}
+
+.brandF { color: var(--ink); }
+.brandA { color: var(--amber); }
+
+.navTabs {
+  display: flex;
+  align-items: stretch;
+  flex: 1;
+}
+
+.navTab {
+  font-family: var(--f-mono);
+  font-size: 0.73rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.navTab:hover { color: var(--body); }
+.navTab.active { color: var(--amber); border-bottom-color: var(--amber); }
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.sessionBadge {
+  font-family: var(--f-mono);
+  font-size: 0.70rem;
+  font-weight: 500;
+  color: var(--amber);
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  padding: 3px 7px;
+  border: 1px solid var(--amber-border);
+  background: var(--amber-bg);
+}
+
+.headerMeta {
+  font-family: var(--f-mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+}

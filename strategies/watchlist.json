@@ -1,0 +1,40 @@
+{
+  "last_updated": "2026-04-11",
+  "last_updated_source": "weekly_research_2026-04-11",
+  "sectors": {
+    "space": {
+      "thesis": "商业航天发射成本持续下降，卫星宽带规模化，政府和商业需求加速。RKLB 主导小型运载市场，合同积压突破 $20 亿，MACH-TB 2.0 合同 $1.9 亿为最大历史单笔，正竞争 NASA $7 亿火星网络项目，Citizens JMP 升级 Buy，PT $85。ASTS 部署全球首个天基蜂窝网络，BlueBird 星座目标 2026 年底 45-60 颗，BlueBird-7 发射是近期关键催化剂。注：SATS(EchoStar) 已移除——频谱资产已出售，原太空通信论据失效。",
+      "symbols": ["RKLB.US", "ASTS.US"]
+    },
+    "ai_semiconductor": {
+      "thesis": "AI 基础设施超级周期：NVIDIA Blackwell 售罄至年中，$1 万亿确认订单管道，FY2026 营收 $2159 亿（+65% YoY）。CoreWeave 本周签 $278 亿新合同（Meta $210 亿 + Anthropic $68 亿），积压总额 >$668 亿，2026 年营收指引 $120-130 亿。Nebius $460 亿合同包（Meta+Microsoft），目标 2026 年底 800MW-1GW 算力，NVIDIA 战略入股，Cantor 发起 Overweight PT $129。TSMC Q1 2026 +35% YoY 确认 AI 超级周期。超大规模云厂商 2026 年 AI 资本支出 $6020 亿（+36%）。SOXL 提供半导体赛道 3 倍杠杆敞口。",
+      "symbols": ["NVDA.US", "CRWV.US", "NBIS.US", "SOXL.US"]
+    },
+    "fintech": {
+      "thesis": "零售交易平台和加密基础设施。HOOD 平台总资产 $3142 亿（+68% YoY），预测市场 40 亿合约是新增长引擎，完成 MIAX 衍生品交易所收购，扩大机构能力。CRCL 推出 CPN 稳定币支付网络新产品，但 CLARITY Act 监管风险需关注（4/16 SEC 圆桌会议）。比特币突破 $72,700 有利于加密相关业务。信念等级：HOOD 中等，CRCL 偏低（监管不确定性）。",
+      "symbols": ["HOOD.US", "CRCL.US"]
+    },
+    "index_etf": {
+      "thesis": "纳斯达克和宽基指数 ETF 提供大盘敞口和杠杆表达。VOO/QQQ 用于对标，TQQQ 表达强信念下纳斯达克的 3 倍杠杆敞口。CPI 核心温和（+2.6% YoY）+ 油价从高位回落 = Fed 转向窗口（最早 6 月），利率敏感成长股获益。",
+      "symbols": ["VOO.US", "QQQ.US", "TQQQ.US"]
+    },
+    "speculative_watchlist": {
+      "thesis": "高投机性候选，关注但暂不建仓。Cerebras Systems：AI 训练芯片赛道 NVDA 竞争对手，已保密申报 S-1，专注超大规模训练，可能 2026 年 Q2 IPO，是 AI 芯片赛道补充标的。SpaceX IPO 候选（最早 H2 2026），Starship V3 轨道测试是关键催化剂。",
+      "symbols": [],
+      "notes": "Cerebras/SpaceX IPO 前无法交易，持续跟踪申报进展。上市后立即评估是否建仓。"
+    }
+  },
+  "removed": [
+    {
+      "symbol": "SATS.US",
+      "removed_date": "2026-04-11",
+      "reason": "EchoStar 已将 AWS4/H 频段卖给 SpaceX（~$170 亿）、部分低频段卖给 AT&T（~$230 亿全现金），2026 年 3 月完成债务重组，实质上已转型为频谱壳公司。原卫星通信论据彻底失效，不再符合 Frontier Alpha 投资赛道标准。"
+    }
+  ],
+  "all_symbols": [
+    "RKLB.US", "ASTS.US",
+    "NVDA.US", "CRWV.US", "NBIS.US", "SOXL.US",
+    "HOOD.US", "CRCL.US",
+    "VOO.US", "QQQ.US", "TQQQ.US"
+  ]
+}

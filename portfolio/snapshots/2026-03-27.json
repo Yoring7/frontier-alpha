@@ -1,0 +1,36 @@
+{
+  "date": "2026-03-27",
+  "source": "longbridge_cli",
+  "note": "Initial portfolio snapshot - baseline for P&L tracking",
+  "positions": [
+    { "symbol": "CRWV.US",               "quantity": 71,  "last_price": 74.810,  "market_value": 5311.51,  "cost_basis": 6359.40,  "unrealized_pnl": -1047.89, "unrealized_pnl_pct": -16.48 },
+    { "symbol": "RKLB.US",               "quantity": 141, "last_price": 60.930,  "market_value": 8591.13,  "cost_basis": 6028.17,  "unrealized_pnl":  2562.96, "unrealized_pnl_pct":  42.52 },
+    { "symbol": "HOOD.US",               "quantity": 49,  "last_price": 66.020,  "market_value": 3234.98,  "cost_basis": 4728.55,  "unrealized_pnl": -1493.57, "unrealized_pnl_pct": -31.59 },
+    { "symbol": "NBIS.US",               "quantity": 35,  "last_price": 100.820, "market_value": 3528.70,  "cost_basis": 2338.00,  "unrealized_pnl":  1190.70, "unrealized_pnl_pct":  50.93 },
+    { "symbol": "TSLA.US",               "quantity": 9,   "last_price": 361.830, "market_value": 3256.47,  "cost_basis": 3034.76,  "unrealized_pnl":   221.71, "unrealized_pnl_pct":   7.30 },
+    { "symbol": "SOXL.US",               "quantity": 80,  "last_price": 46.610,  "market_value": 3728.80,  "cost_basis": 2460.00,  "unrealized_pnl":  1268.80, "unrealized_pnl_pct":  51.58 },
+    { "symbol": "NIO.US",                "quantity": 179, "last_price": 5.310,   "market_value":  950.49,  "cost_basis":  938.50,  "unrealized_pnl":    11.99, "unrealized_pnl_pct":   1.28 },
+    { "symbol": "ASTS.US",               "quantity": 16,  "last_price": 78.670,  "market_value": 1258.72,  "cost_basis": 1309.94,  "unrealized_pnl":   -51.22, "unrealized_pnl_pct":  -3.91 },
+    { "symbol": "OKLO.US",               "quantity": 23,  "last_price": 50.230,  "market_value": 1155.29,  "cost_basis": 1828.82,  "unrealized_pnl":  -673.53, "unrealized_pnl_pct": -36.83 },
+    { "symbol": "NVDA.US",               "quantity": 9,   "last_price": 167.520, "market_value": 1507.68,  "cost_basis": 1233.03,  "unrealized_pnl":   274.65, "unrealized_pnl_pct":  22.27 },
+    { "symbol": "XPEV.US",               "quantity": 56,  "last_price": 16.930,  "market_value":  948.08,  "cost_basis": 1212.06,  "unrealized_pnl":  -263.98, "unrealized_pnl_pct": -21.77 },
+    { "symbol": "TQQQ.US",               "quantity": 26,  "last_price": 38.780,  "market_value": 1008.28,  "cost_basis":  860.37,  "unrealized_pnl":   147.91, "unrealized_pnl_pct":  17.19 },
+    { "symbol": "RKLX.US",               "quantity": 32,  "last_price": 23.520,  "market_value":  752.64,  "cost_basis": 1114.72,  "unrealized_pnl":  -362.08, "unrealized_pnl_pct": -32.48 },
+    { "symbol": "CRML.US",               "quantity": 50,  "last_price": 7.040,   "market_value":  352.00,  "cost_basis":  842.50,  "unrealized_pnl":  -490.50, "unrealized_pnl_pct": -58.22 },
+    { "symbol": "SATS.US",               "quantity": 7,   "last_price": 115.210, "market_value":  806.47,  "cost_basis":  880.11,  "unrealized_pnl":   -73.64, "unrealized_pnl_pct":  -8.36 },
+    { "symbol": "GOOG.US",               "quantity": 3,   "last_price": 273.760, "market_value":  821.28,  "cost_basis":  523.50,  "unrealized_pnl":   297.78, "unrealized_pnl_pct":  56.88 },
+    { "symbol": "CRCL.US",               "quantity": 2,   "last_price": 93.660,  "market_value":  187.32,  "cost_basis":  224.10,  "unrealized_pnl":   -36.78, "unrealized_pnl_pct": -16.41 },
+    { "symbol": "BMNR.US",               "quantity": 5,   "last_price": 18.390,  "market_value":   91.95,  "cost_basis":  240.38,  "unrealized_pnl":  -148.43, "unrealized_pnl_pct": -61.74 },
+    { "symbol": "NIO270115C10000.US",    "quantity": 20,  "last_price": null,    "market_value":    null,  "cost_basis": 2350.00,  "unrealized_pnl":    null,  "unrealized_pnl_pct":   null },
+    { "symbol": "HOOD270115C150000.US",  "quantity": 4,   "last_price": null,    "market_value":    null,  "cost_basis": 3585.20,  "unrealized_pnl":    null,  "unrealized_pnl_pct":   null },
+    { "symbol": "HOOD260618C160000.US",  "quantity": 1,   "last_price": null,    "market_value":    null,  "cost_basis":  415.00,  "unrealized_pnl":    null,  "unrealized_pnl_pct":   null },
+    { "symbol": "CRWV270115C100000.US",  "quantity": 1,   "last_price": null,    "market_value":    null,  "cost_basis": 1480.00,  "unrealized_pnl":    null,  "unrealized_pnl_pct":   null }
+  ],
+  "summary": {
+    "stocks_cost_basis": 36156.91,
+    "stocks_market_value": 37491.79,
+    "stocks_unrealized_pnl": 1334.88,
+    "stocks_unrealized_pnl_pct": 3.69,
+    "options_cost_basis": 7830.20
+  }
+}

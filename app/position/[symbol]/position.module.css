@@ -1,0 +1,246 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 280px;
+}
+
+/* ── Left column ── */
+.leftCol {
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+}
+
+.hero {
+  padding: 28px 32px 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.heroTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.sectorTag {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.ticker {
+  font-family: var(--f-mono);
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+
+.priceBlock { text-align: right; }
+
+.price {
+  font-family: var(--f-mono);
+  font-size: 2.0rem;
+  font-weight: 500;
+  color: var(--strong);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.pnlPct {
+  font-family: var(--f-mono);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  margin-top: 4px;
+}
+
+.chartWrap {
+  height: 140px;
+  width: 100%;
+}
+
+/* Stats grid */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid var(--border);
+}
+
+.statCell {
+  padding: 14px 20px;
+  border-right: 1px solid var(--border-subtle);
+}
+
+.statCell:nth-child(3n) { border-right: none; }
+
+.statLabel {
+  font-family: var(--f-mono);
+  font-size: 0.65rem;
+  color: var(--muted);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.statVal {
+  font-family: var(--f-mono);
+  font-size: 1.0rem;
+  font-weight: 500;
+  color: var(--strong);
+  font-variant-numeric: tabular-nums;
+}
+
+.gain { color: var(--gain); }
+.loss { color: var(--loss); }
+
+/* Notes */
+.notesSection {
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+.notesLabel {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.notesText {
+  font-family: var(--f-body);
+  font-size: 0.88rem;
+  color: var(--body);
+  line-height: 1.7;
+}
+
+/* Transactions */
+.txSection {
+  padding: 20px 32px;
+}
+
+.txLabel {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.txRow {
+  display: grid;
+  grid-template-columns: 40px 1fr auto auto;
+  gap: 10px;
+  align-items: baseline;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.txRow:last-child { border-bottom: none; }
+
+.txAction {
+  font-family: var(--f-mono);
+  font-size: 0.70rem;
+  font-weight: 600;
+}
+
+.txDetail, .txAmt, .txDate {
+  font-family: var(--f-mono);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.txDetail { color: var(--strong); }
+.txAmt    { color: var(--body); text-align: right; }
+.txDate   { color: var(--faint); text-align: right; }
+
+/* ── Right sidebar ── */
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.sbSection {
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sbLabel {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.costRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.costRow:last-child { border-bottom: none; }
+
+.costKey {
+  font-family: var(--f-body);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.costVal {
+  font-family: var(--f-mono);
+  font-size: 0.78rem;
+  color: var(--strong);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Symbol switcher */
+.symbolGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.symbolChip {
+  font-family: var(--f-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 3px 8px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  transition: all 0.12s;
+}
+
+.symbolChip:hover { border-color: var(--amber); color: var(--amber); }
+
+.symbolActive {
+  border-color: var(--amber);
+  color: var(--amber);
+  background: var(--amber-bg);
+}
+
+.backLink {
+  font-family: var(--f-mono);
+  font-size: 0.72rem;
+  color: var(--amber);
+  letter-spacing: 0.05em;
+}
+
+.backLink:hover { text-decoration: underline; }

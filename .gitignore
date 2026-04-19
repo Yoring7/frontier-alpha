@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.claude/
+data/market.db
+tools/__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.env.local
+.env

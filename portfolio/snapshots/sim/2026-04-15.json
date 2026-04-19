@@ -1,0 +1,118 @@
+{
+  "snapshot_date": "2026-04-15",
+  "trading_date_us": "2026-04-14",
+  "session": "postmarket",
+  "source": "postmarket_2026-04-15",
+  "initial_capital": 100000,
+  "cash_balance": 17813.70,
+  "positions": [
+    {
+      "symbol": "NVDA.US",
+      "quantity": 108,
+      "avg_cost": 181.85,
+      "cost_basis": 19639.80,
+      "close_price": 196.510,
+      "market_value": 21223.08,
+      "unrealized_pnl": 1583.28,
+      "unrealized_pnl_pct": 8.06,
+      "pct_change_day": 3.80,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "RKLB.US",
+      "quantity": 211,
+      "avg_cost": 70.12,
+      "cost_basis": 14795.32,
+      "close_price": 72.220,
+      "market_value": 15238.42,
+      "unrealized_pnl": 443.10,
+      "unrealized_pnl_pct": 2.99,
+      "pct_change_day": 2.27,
+      "sector": "space"
+    },
+    {
+      "symbol": "CRWV.US",
+      "quantity": 173,
+      "avg_cost": 89.667,
+      "cost_basis": 15512.77,
+      "close_price": 117.200,
+      "market_value": 20275.60,
+      "unrealized_pnl": 4763.21,
+      "unrealized_pnl_pct": 30.70,
+      "pct_change_day": 6.28,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "SOXL.US",
+      "quantity": 150,
+      "avg_cost": 66.05,
+      "cost_basis": 9907.50,
+      "close_price": 85.310,
+      "market_value": 12796.50,
+      "unrealized_pnl": 2889.00,
+      "unrealized_pnl_pct": 29.16,
+      "pct_change_day": 5.90,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "NBIS.US",
+      "quantity": 81,
+      "avg_cost": 122.09,
+      "cost_basis": 9889.29,
+      "close_price": 161.940,
+      "market_value": 13117.14,
+      "unrealized_pnl": 3227.85,
+      "unrealized_pnl_pct": 32.64,
+      "pct_change_day": 4.78,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "ASTS.US",
+      "quantity": 76,
+      "avg_cost": 96.13,
+      "cost_basis": 7305.88,
+      "close_price": 88.570,
+      "market_value": 6731.32,
+      "unrealized_pnl": -574.56,
+      "unrealized_pnl_pct": -7.86,
+      "pct_change_day": -10.51,
+      "sector": "space"
+    },
+    {
+      "symbol": "TQQQ.US",
+      "quantity": 100,
+      "avg_cost": 51.0346,
+      "cost_basis": 5103.46,
+      "close_price": 53.410,
+      "market_value": 5341.00,
+      "unrealized_pnl": 237.54,
+      "unrealized_pnl_pct": 4.65,
+      "pct_change_day": 5.43,
+      "sector": "index_etf"
+    }
+  ],
+  "summary": {
+    "total_market_value": 94723.06,
+    "total_cost_basis": 82154.02,
+    "total_unrealized_pnl": 12569.42,
+    "total_unrealized_pnl_pct": 15.30,
+    "cash_balance": 17813.70,
+    "portfolio_value": 112536.76,
+    "day_pnl": 2979.47,
+    "day_pnl_pct": 2.72,
+    "cumulative_pnl": 12536.76,
+    "cumulative_pnl_pct": 12.54
+  },
+  "reference_prices": {
+    "VOO": 638.350,
+    "QQQ": 628.600,
+    "CRCL": 105.490,
+    "HOOD": 79.090
+  },
+  "sector_allocation": {
+    "ai_semiconductor_pct": 59.9,
+    "space_pct": 19.5,
+    "index_etf_pct": 4.7,
+    "cash_pct": 15.8
+  }
+}

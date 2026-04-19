@@ -1,0 +1,5 @@
+{
+  "schema_version": "1.0",
+  "description": "Transaction log for all buy/sell/option trades. Each entry represents one order fill.",
+  "transactions": []
+}

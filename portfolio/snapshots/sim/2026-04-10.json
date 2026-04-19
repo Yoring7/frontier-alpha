@@ -1,0 +1,111 @@
+{
+  "snapshot_date": "2026-04-10",
+  "snapshot_session": "postmarket",
+  "schema_version": "1.0",
+  "data_source": "LongBridge CLI（API已确认，价格为2026-04-09美股收盘价）",
+  "base_currency": "USD",
+  "initial_capital": 100000,
+  "cash_balance": 25444.87,
+  "positions": [
+    {
+      "symbol": "NVDA.US",
+      "quantity": 108,
+      "avg_cost": 181.85,
+      "cost_basis": 19639.80,
+      "last_price": 183.91,
+      "market_value": 19862.28,
+      "unrealized_pnl": 222.48,
+      "unrealized_pnl_pct": 1.13,
+      "daily_change_pct": 1.01,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "RKLB.US",
+      "quantity": 211,
+      "avg_cost": 70.12,
+      "cost_basis": 14795.32,
+      "last_price": 66.74,
+      "market_value": 14082.14,
+      "unrealized_pnl": -713.18,
+      "unrealized_pnl_pct": -4.82,
+      "daily_change_pct": -3.39,
+      "sector": "space"
+    },
+    {
+      "symbol": "CRWV.US",
+      "quantity": 173,
+      "avg_cost": 89.667,
+      "cost_basis": 15512.77,
+      "last_price": 92.00,
+      "market_value": 15916.00,
+      "unrealized_pnl": 403.23,
+      "unrealized_pnl_pct": 2.60,
+      "daily_change_pct": 3.49,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "SOXL.US",
+      "quantity": 150,
+      "avg_cost": 66.05,
+      "cost_basis": 9907.50,
+      "last_price": 71.98,
+      "market_value": 10797.00,
+      "unrealized_pnl": 889.50,
+      "unrealized_pnl_pct": 8.98,
+      "daily_change_pct": 6.64,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "NBIS.US",
+      "quantity": 81,
+      "avg_cost": 122.09,
+      "cost_basis": 9889.29,
+      "last_price": 136.33,
+      "market_value": 11042.73,
+      "unrealized_pnl": 1153.44,
+      "unrealized_pnl_pct": 11.66,
+      "daily_change_pct": 9.06,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "ASTS.US",
+      "quantity": 51,
+      "avg_cost": 94.27,
+      "cost_basis": 4807.77,
+      "last_price": 91.61,
+      "market_value": 4672.11,
+      "unrealized_pnl": -135.66,
+      "unrealized_pnl_pct": -2.82,
+      "daily_change_pct": -5.03,
+      "sector": "space"
+    }
+  ],
+  "summary": {
+    "total_market_value": 76372.26,
+    "total_cost_basis": 74552.45,
+    "total_unrealized_pnl": 1819.81,
+    "total_unrealized_pnl_pct": 2.44,
+    "cash_balance": 25444.87,
+    "portfolio_value": 101817.13,
+    "previous_portfolio_value": 100268.09,
+    "daily_pnl": 1549.04,
+    "daily_pnl_pct": 1.54,
+    "cumulative_pnl": 1817.13,
+    "cumulative_pnl_pct": 1.82
+  },
+  "benchmark": {
+    "VOO_close": 625.02,
+    "VOO_daily_pct": 0.59,
+    "QQQ_close": 610.19,
+    "QQQ_daily_pct": 0.68,
+    "TQQQ_close": 48.96,
+    "TQQQ_daily_pct": 2.00,
+    "portfolio_vs_QQQ_alpha": 0.86
+  },
+  "market_events": {
+    "date": "2026-04-09",
+    "notes": "稳健上涨日。AI/半导体全线走强，NBIS +9.06% 领涨，SOXL +6.64%。RKLB -3.39% 和 ASTS -5.03% 是拖累项，但论据未变。",
+    "geopolitical": "美伊伊斯兰堡谈判4月10日正式启动，停火至4月22日持续维持",
+    "nbis_risk": "盘后-3.44%：NBIS收购以色列AI初创AI21 Labs谈判曝光 + 内部人减持，需明日跟踪"
+  }
+}

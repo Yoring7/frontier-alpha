@@ -1,0 +1,130 @@
+{
+  "snapshot_date": "2026-04-17",
+  "trading_date_us": "2026-04-16",
+  "session": "postmarket",
+  "source": "postmarket_2026-04-17",
+  "initial_capital": 100000,
+  "cash_balance": 14216.50,
+  "positions": [
+    {
+      "symbol": "NVDA.US",
+      "quantity": 108,
+      "avg_cost": 181.85,
+      "cost_basis": 19639.80,
+      "close_price": 198.350,
+      "market_value": 21421.80,
+      "unrealized_pnl": 1782.00,
+      "unrealized_pnl_pct": 9.07,
+      "pct_change_day": -0.26,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "RKLB.US",
+      "quantity": 231,
+      "avg_cost": 70.39,
+      "cost_basis": 16259.52,
+      "close_price": 82.930,
+      "market_value": 19156.83,
+      "unrealized_pnl": 2897.31,
+      "unrealized_pnl_pct": 17.82,
+      "pct_change_day": 12.68,
+      "sector": "space"
+    },
+    {
+      "symbol": "CRWV.US",
+      "quantity": 173,
+      "avg_cost": 89.667,
+      "cost_basis": 15512.77,
+      "close_price": 119.560,
+      "market_value": 20683.88,
+      "unrealized_pnl": 5171.11,
+      "unrealized_pnl_pct": 33.33,
+      "pct_change_day": 0.73,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "SOXL.US",
+      "quantity": 150,
+      "avg_cost": 66.05,
+      "cost_basis": 9907.50,
+      "close_price": 88.370,
+      "market_value": 13255.50,
+      "unrealized_pnl": 3348.00,
+      "unrealized_pnl_pct": 33.79,
+      "pct_change_day": 2.80,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "NBIS.US",
+      "quantity": 81,
+      "avg_cost": 122.09,
+      "cost_basis": 9889.29,
+      "close_price": 165.340,
+      "market_value": 13392.54,
+      "unrealized_pnl": 3503.25,
+      "unrealized_pnl_pct": 35.42,
+      "pct_change_day": -0.86,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "ASTS.US",
+      "quantity": 76,
+      "avg_cost": 96.13,
+      "cost_basis": 7305.88,
+      "close_price": 90.940,
+      "market_value": 6911.44,
+      "unrealized_pnl": -394.44,
+      "unrealized_pnl_pct": -5.40,
+      "pct_change_day": 4.63,
+      "sector": "space"
+    },
+    {
+      "symbol": "TQQQ.US",
+      "quantity": 100,
+      "avg_cost": 51.0346,
+      "cost_basis": 5103.46,
+      "close_price": 56.430,
+      "market_value": 5643.00,
+      "unrealized_pnl": 539.54,
+      "unrealized_pnl_pct": 10.57,
+      "pct_change_day": 1.40,
+      "sector": "index_etf"
+    },
+    {
+      "symbol": "HOOD.US",
+      "quantity": 25,
+      "avg_cost": 85.32,
+      "cost_basis": 2133.00,
+      "close_price": 86.850,
+      "market_value": 2171.25,
+      "unrealized_pnl": 38.25,
+      "unrealized_pnl_pct": 1.79,
+      "pct_change_day": -0.54,
+      "sector": "fintech_crypto"
+    }
+  ],
+  "summary": {
+    "total_market_value": 102636.24,
+    "total_cost_basis": 85751.22,
+    "total_unrealized_pnl": 16884.95,
+    "total_unrealized_pnl_pct": 19.69,
+    "cash_balance": 14216.50,
+    "portfolio_value": 116852.74,
+    "day_pnl": 2867.78,
+    "day_pnl_pct": 2.52,
+    "cumulative_pnl": 16852.74,
+    "cumulative_pnl_pct": 16.85
+  },
+  "reference_prices": {
+    "VOO": 644.860,
+    "QQQ": 640.470
+  },
+  "sector_allocation": {
+    "ai_semiconductor_pct": 58.8,
+    "space_pct": 22.3,
+    "index_etf_pct": 4.8,
+    "fintech_crypto_pct": 1.9,
+    "cash_pct": 12.2
+  },
+  "notes": "4/16 US close. RKLB +12.68% 年度最佳单日——SpaceX IPO预期爆发+Mynaric并购完成+板块情绪沸腾。ASTS +4.63%空间赛道共振（BlueBird 7发射窗口推迟至4/19周日）。RKLB Q1财报5/7。无新交易。累计+16.85%。"
+}

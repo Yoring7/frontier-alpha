@@ -1,0 +1,131 @@
+{
+  "snapshot_date": "2026-04-16",
+  "trading_date_us": "2026-04-15",
+  "session": "postmarket",
+  "source": "postmarket_2026-04-16",
+  "initial_capital": 100000,
+  "cash_balance": 14216.50,
+  "positions": [
+    {
+      "symbol": "NVDA.US",
+      "quantity": 108,
+      "avg_cost": 181.85,
+      "cost_basis": 19639.80,
+      "close_price": 198.870,
+      "market_value": 21477.96,
+      "unrealized_pnl": 1838.16,
+      "unrealized_pnl_pct": 9.36,
+      "pct_change_day": 1.20,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "RKLB.US",
+      "quantity": 231,
+      "avg_cost": 70.39,
+      "cost_basis": 16259.52,
+      "close_price": 73.600,
+      "market_value": 17001.60,
+      "unrealized_pnl": 742.08,
+      "unrealized_pnl_pct": 4.56,
+      "pct_change_day": 1.91,
+      "sector": "space"
+    },
+    {
+      "symbol": "CRWV.US",
+      "quantity": 173,
+      "avg_cost": 89.667,
+      "cost_basis": 15512.77,
+      "market_value": 20533.37,
+      "close_price": 118.690,
+      "unrealized_pnl": 5020.60,
+      "unrealized_pnl_pct": 32.36,
+      "pct_change_day": 1.27,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "SOXL.US",
+      "quantity": 150,
+      "avg_cost": 66.05,
+      "cost_basis": 9907.50,
+      "close_price": 85.960,
+      "market_value": 12894.00,
+      "unrealized_pnl": 2986.50,
+      "unrealized_pnl_pct": 30.15,
+      "pct_change_day": 0.76,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "NBIS.US",
+      "quantity": 81,
+      "avg_cost": 122.09,
+      "cost_basis": 9889.29,
+      "close_price": 166.770,
+      "market_value": 13508.37,
+      "unrealized_pnl": 3619.08,
+      "unrealized_pnl_pct": 36.60,
+      "pct_change_day": 2.98,
+      "sector": "ai_semiconductor"
+    },
+    {
+      "symbol": "ASTS.US",
+      "quantity": 76,
+      "avg_cost": 96.13,
+      "cost_basis": 7305.88,
+      "close_price": 86.910,
+      "market_value": 6605.16,
+      "unrealized_pnl": -700.72,
+      "unrealized_pnl_pct": -9.59,
+      "pct_change_day": -1.87,
+      "sector": "space"
+    },
+    {
+      "symbol": "TQQQ.US",
+      "quantity": 100,
+      "avg_cost": 51.0346,
+      "cost_basis": 5103.46,
+      "close_price": 55.650,
+      "market_value": 5565.00,
+      "unrealized_pnl": 461.54,
+      "unrealized_pnl_pct": 9.04,
+      "pct_change_day": 4.19,
+      "sector": "index_etf"
+    },
+    {
+      "symbol": "HOOD.US",
+      "quantity": 25,
+      "avg_cost": 85.32,
+      "cost_basis": 2133.00,
+      "close_price": 87.320,
+      "market_value": 2183.00,
+      "unrealized_pnl": 50.00,
+      "unrealized_pnl_pct": 2.35,
+      "pct_change_day": 10.41,
+      "sector": "fintech_crypto"
+    }
+  ],
+  "summary": {
+    "total_market_value": 99768.46,
+    "total_cost_basis": 85751.22,
+    "total_unrealized_pnl": 14017.24,
+    "total_unrealized_pnl_pct": 16.35,
+    "cash_balance": 14216.50,
+    "portfolio_value": 113984.96,
+    "day_pnl": 1448.20,
+    "day_pnl_pct": 1.29,
+    "cumulative_pnl": 13984.96,
+    "cumulative_pnl_pct": 13.98
+  },
+  "reference_prices": {
+    "CRCL": null,
+    "VOO": null,
+    "QQQ": null
+  },
+  "sector_allocation": {
+    "ai_semiconductor_pct": 60.0,
+    "space_pct": 20.7,
+    "index_etf_pct": 4.9,
+    "fintech_crypto_pct": 1.9,
+    "cash_pct": 12.5
+  },
+  "notes": "4/15 US close. HOOD +10.4% on SEC PDT rule abolition. ASTS -1.87% Amazon/Globalstar overhang. BlueBird 7 launch status unconfirmed. No trades today — AI/semi at 60% cap. Cumulative +13.98%."
+}

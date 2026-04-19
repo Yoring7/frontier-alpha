@@ -1,0 +1,358 @@
+{
+  "last_updated": "2026-04-18",
+  "session": "weekly-research",
+  "market_snapshot": {
+    "date": "2026-04-18",
+    "notes": "S&P 500首破7,000（+3.3%），Nasdaq首破24,000（+5.2%），连涨12日（2009年来最长）。霍尔木兹重开，油价回落，风险情绪全面改善。🆕【关键风险】全球10%关税约7/24到期（150天）；AI芯片叠加25%关税——这是H2最大宏观变量。TSMC Q1 +58%确认AI超级周期。CRWV获Meta $210亿大单+Anthropic合同。NBIS签近$500亿合同积压（Meta+MS）。HOOD SEC PDT废除（+7%），Q1财报4/28。Cerebras S-1于4/17正式提交，CBRS IPO定于Q2。ASTS BlueBird-7今日（4/19周日）发射，发射结果是周一最大催化剂。"
+  },
+  "watchlist_review": [
+    {
+      "symbol": "RKLB.US",
+      "last": 84.80,
+      "prev_scout": 70.62,
+      "change_pct": "+20.1%",
+      "status": "强势，论据更强",
+      "notes": "完成Mynaric AG收购，获得激光光学通信技术，战略从发射服务扩展至卫星子系统供应商。4/16 +12%，SpaceX IPO预期带动整个商业航天板块重估。Neutron可复用火箭Q4 2026首飞是下一个大催化剂。RKLB已证明自己是最强的太空纯股——维持核心持仓。"
+    },
+    {
+      "symbol": "ASTS.US",
+      "last": 85.53,
+      "prev_scout": 98.97,
+      "change_pct": "-13.6%",
+      "status": "⚡ 紧急催化剂：4/19 BlueBird-7发射",
+      "notes": "发射前正常回调压力。BlueBird-7明日（4/19周日）在卡纳维拉尔发射——这是迄今最大的商业卫星（6100公斤，2400平方英尺相控阵，是第一代的3.5倍）。成功发射=直接商业4G/5G服务能力。AT&T/Verizon/Rakuten合作框架已就位。4/17 -5.95%是典型的发射前抛压。关注4/19结果：成功→周一开盘加仓；失败→重新评估论据。"
+    },
+    {
+      "symbol": "NVDA.US",
+      "last": 201.68,
+      "prev_scout": 189.31,
+      "change_pct": "+6.5%",
+      "status": "核心持仓，强持有",
+      "notes": "AI超级周期不变。TSMC Q1 +35% YoY确认需求真实。Blackwell全面量产，Vera Rubin下一代平台就绪。MAG7 AI资本支出承诺$6020亿。"
+    },
+    {
+      "symbol": "CRWV.US",
+      "last": 116.85,
+      "prev_scout": 110.27,
+      "change_pct": "+6.0%",
+      "status": "持续强势，持有",
+      "notes": "合同积压>$668亿，2026年营收指引$120-130亿。Anthropic+Meta合同持续扩大。AI算力争夺持续。"
+    },
+    {
+      "symbol": "NBIS.US",
+      "last": 157.14,
+      "prev_scout": 154.56,
+      "change_pct": "+1.7%",
+      "status": "技术性回调，基本面不变",
+      "notes": "4/17 -4.96%，RSI 75.2后技术获利回吐，非基本面问题。$27B Meta合同+NVIDIA战略入股逻辑完整。"
+    },
+    {
+      "symbol": "CRCL.US",
+      "last": 105.91,
+      "prev_scout": 98.68,
+      "change_pct": "+7.3%",
+      "status": "中等信念，监管进展关键",
+      "notes": "4/16 SEC稳定币圆桌已过，关注GENIUS Act立法进展。USDC流通$683亿(+72% YoY)。"
+    },
+    {
+      "symbol": "HOOD.US",
+      "last": 90.75,
+      "prev_scout": 71.67,
+      "change_pct": "+26.6%",
+      "status": "强势突破，Q1财报4/28",
+      "notes": "SEC PDT（Pattern Day Trader规则）废除预期是巨大催化剂——直接打开日内交易用户市场。4/28 Q1财报窗口是下一个关键节点。平台资产$3142亿(+68% YoY)。"
+    },
+    {
+      "symbol": "SOXL.US",
+      "last": 94.68,
+      "prev_scout": 80.56,
+      "change_pct": "+17.5%",
+      "status": "持续持有，超配审查",
+      "notes": "4/17 +7.14%。半导体3x杠杆受益于AI超级周期。注意：AI/半导体敞口已达63.7%，超过60%软上限。"
+    }
+  ],
+  "picks": [
+    {
+      "rank": 1,
+      "symbol": "CRDO.US",
+      "name": "Credo Technology Group",
+      "current_price": 160.69,
+      "prev_price": 134.36,
+      "gain_since_pick": "+19.6%",
+      "sector": "ai_infrastructure",
+      "thesis": "AI集群互联基础设施龙头。AEC有源铜缆是GPU集群互联的核心方案，FY26 Q3营收+201.5% YoY。盘后大涨已兑现，当前$160.69维持强势。超大规模云厂商AI资本支出持续加码。",
+      "catalysts": [
+        "FY26 Q4财报（预计2026年5月）",
+        "新超大规模客户合同",
+        "AEC取代光纤成为行业标准趋势"
+      ],
+      "risk": "客户集中风险；Marvell/Broadcom竞争；AI资本支出周期逆转",
+      "conviction": "high",
+      "suggested_action": "buy_now",
+      "position_sizing": "战术仓位5-8%",
+      "source": "上次Scout + 行情更新"
+    },
+    {
+      "rank": 2,
+      "symbol": "CEG.US",
+      "name": "Constellation Energy",
+      "current_price": 296.21,
+      "prev_price": 291.72,
+      "gain_since_pick": "+1.5%",
+      "sector": "adjacent_nuclear_energy",
+      "thesis": "美国最大核电运营商，AI数据中心电力基础设施核心受益者。微软20年TMI协议、Meta 1.1GW 20年PPA。Q1财报预期强劲（已上调2026年资本支出和回购计划，+7%）。分析师均价目标$383，当前$296意味着29%上涨空间。PJM紧急15GW扩容计划对CEG是长期利好。",
+      "catalysts": [
+        "Q1 2026财报（近期发布）——已上调资本支出和回购，预期强",
+        "新超大规模客户核电PPA协议",
+        "PJM电网扩容提前",
+        "联邦核能政策支持加强"
+      ],
+      "risk": "TMI电网连接延至2031年；核电项目执行风险；监管审批不确定性",
+      "conviction": "medium",
+      "suggested_action": "add_to_watchlist",
+      "position_sizing": "财报后确认强劲可建仓3-5%",
+      "source": "上次Scout + Longbridge新闻确认"
+    },
+    {
+      "rank": 3,
+      "symbol": "PLTR.US",
+      "name": "Palantir Technologies",
+      "current_price": 146.39,
+      "prev_price": 132.37,
+      "gain_since_pick": "+10.6%",
+      "sector": "ai_infrastructure",
+      "thesis": "AI+国防数据平台龙头。AIP平台是政府和企业AI部署操作系统。Q4 2025 +70% YoY，美国商业客户+137% YoY。$10B+联邦合同积压。地缘政治持续驱动国防AI支出。",
+      "catalysts": [
+        "Q1 2026财报（预计5月）——高增长持续确认",
+        "新政府/国防合同公告",
+        "AIP商业客户突破大企业"
+      ],
+      "risk": "估值极端（~95x前向PE）；内部人士持续减持；国际业务增长缓慢",
+      "conviction": "medium",
+      "suggested_action": "add_to_watchlist",
+      "position_sizing": "回调至$125-130区间建仓3-5%；当前$146偏高追高需谨慎",
+      "source": "上次Scout + 行情更新"
+    },
+    {
+      "rank": 4,
+      "symbol": "PL.US",
+      "name": "Planet Labs PBC",
+      "current_price": 38.48,
+      "prev_price": 34.32,
+      "gain_since_pick": "+12.1%",
+      "sector": "space",
+      "thesis": "太空×AI融合标的。全球最大商业卫星星座。与NVIDIA合作开发星载GPU（卫星从数据采集器变为AI推理节点——范式转变）。FY26营收$307.7M(+41%)，RPO积压+106% YoY。首次调整后EBITDA正值。",
+      "catalysts": [
+        "NVIDIA合作星载GPU落地进展",
+        "FY27营收指引$415-440M持续增长",
+        "国防/情报客户新合同",
+        "SpaceX IPO带动商业航天板块重估"
+      ],
+      "risk": "股价近历史高点；仍需证明运营持续盈利；SpaceX竞争压力",
+      "conviction": "speculative",
+      "suggested_action": "add_to_watchlist",
+      "position_sizing": "等待回调至$35附近建试探仓1-2%",
+      "source": "上次Scout + 行情更新"
+    },
+    {
+      "rank": 5,
+      "symbol": "GEV.US",
+      "name": "GE Vernova",
+      "current_price": 1002.75,
+      "prev_price": 991.12,
+      "gain_since_pick": "+1.2%",
+      "sector": "adjacent_ai_power",
+      "thesis": "AI数据中心电力供应核心基础设施。燃气轮机全球25%电力供应，2026年产能扩张(48→80台/年)。SMR核电BWRX-300(2029年加拿大首台)。Q1 2026财报4/22即将发布。2026-2028累计FCF指引≥$220亿。",
+      "catalysts": [
+        "Q1 2026财报4月22日——关键观察窗口",
+        "新AI数据中心燃气轮机大合同",
+        "BWRX-300 SMR推进里程碑",
+        "PJM紧急电力扩容15GW"
+      ],
+      "risk": "股价$1003已超分析师共识目标价$842，存在下行风险；Q1财报不及预期可能大幅回调",
+      "conviction": "speculative",
+      "suggested_action": "watch",
+      "position_sizing": "等待Q1财报(4/22)后再决策；理想入场$880-920",
+      "source": "上次Scout + 行情更新"
+    },
+    {
+      "rank": 6,
+      "symbol": "VRT.US",
+      "name": "Vertiv Holdings",
+      "current_price": 307.34,
+      "prev_price": 299.96,
+      "gain_since_pick": "+2.5%",
+      "sector": "ai_infrastructure",
+      "thesis": "AI数据中心电力与液冷基础设施整合龙头。2025年订单+252%，2026年预计营收$135亿(+28%)。AI芯片功耗密度从20kW/机柜升至120kW+，液冷从可选变必选。「卖铲人」确定性高。",
+      "catalysts": [
+        "2026年全球数据中心资本支出放量",
+        "液冷渗透率快速提升",
+        "新超大规模数据中心订单"
+      ],
+      "risk": "前向PE 44x偏高；供应链能否跟上；Eaton/施耐德竞争",
+      "conviction": "medium",
+      "suggested_action": "add_to_watchlist",
+      "position_sizing": "回调至$280-290区间建仓4-6%",
+      "source": "上次Scout + 行情更新"
+    },
+    {
+      "rank": 7,
+      "symbol": "OKLO.US",
+      "name": "Oklo Inc.",
+      "current_price": 66.81,
+      "prev_price": 53.94,
+      "gain_since_pick": "+23.9%",
+      "sector": "adjacent_nuclear_energy",
+      "thesis": "AI数据中心电力瓶颈的颠覆性押注。Aurora紧凑型快堆，14GW客户管道（Switch 12GW + Equinix 500MW）。Jensen Huang背书核电。长期5年赌注。核能论据持续强化（PJM 15GW扩容、CEG/GEV大合同），OKLO是最投机的纯押注。",
+      "catalysts": [
+        "Switch 12GW协议执行时间表公告",
+        "NRC许可申请重大进展",
+        "更多数据中心大客户签约",
+        "政策：核能加速立法"
+      ],
+      "risk": "无营收，NRC审批5-10年，技术风险极高；+24%后短期追高风险",
+      "conviction": "speculative",
+      "suggested_action": "buy_now",
+      "position_sizing": "已涨23.9%后维持原仓位，不追高；等待回调至$58-62区间可加仓",
+      "source": "上次Scout + 行情更新"
+    },
+    {
+      "rank": 8,
+      "symbol": "FLY.US",
+      "name": "Firefly Aerospace Inc.",
+      "current_price": 43.72,
+      "prev_price": 38.80,
+      "gain_since_pick": "+12.7%",
+      "sector": "space",
+      "thesis": "商业航天第二浪。Alpha火箭4次发射全成功，Eclipse中型火箭2026年首飞是最大催化剂。SpaceX IPO推动板块重估。RKLB Mynaric并购完成后，商业航天赛道整体活跃度提升。",
+      "catalysts": [
+        "Eclipse中型火箭2026年首飞（最重要催化剂）",
+        "SpaceX IPO带动板块重估",
+        "新发射合同公告"
+      ],
+      "risk": "Eclipse首飞失败概率较高（新火箭历史失败率>50%）；与RKLB/SpaceX竞争",
+      "conviction": "speculative",
+      "suggested_action": "watch",
+      "position_sizing": "等待Eclipse首飞成功后建仓1-2%",
+      "source": "上次Scout + 行情更新"
+    },
+    {
+      "rank": 9,
+      "symbol": "COIN.US",
+      "name": "Coinbase Global",
+      "current_price": 206.33,
+      "prev_price": 174.53,
+      "gain_since_pick": "+18.2%",
+      "sector": "fintech_crypto",
+      "thesis": "加密基础设施机构化最大上市受益者。比特币突破$78,000（伊朗重开霍尔木兹 → 地缘风险消退），加密市场风险偏好大幅改善。稳定币监管（GENIUS Act）清晰化推动机构级加密基础设施需求。Base L2生态扩张，USDC托管费协同CRCL。",
+      "catalysts": [
+        "比特币走强：$78K突破后目标$80-85K",
+        "GENIUS Act稳定币监管落地",
+        "Base L2交易量持续增长",
+        "机构加密ETF（BTC/ETH）规模扩大",
+        "Q1 2026财报（预计5月）"
+      ],
+      "risk": "监管不确定性；加密周期性熊市；利率影响稳定币收益",
+      "conviction": "medium",
+      "suggested_action": "add_to_watchlist",
+      "position_sizing": "与CRCL合计不超过8%；等待回调至$190-195建仓3-4%",
+      "source": "上次Scout + Longbridge新闻（BTC$78K）"
+    },
+    {
+      "rank": 10,
+      "symbol": "AVGO.US",
+      "name": "Broadcom Inc.",
+      "current_price": 406.54,
+      "prev_price": null,
+      "gain_since_pick": "新发现",
+      "sector": "ai_infrastructure",
+      "thesis": "超大规模AI定制芯片（XPU）和AI网络交换芯片双引擎。Google TPU 7代、Meta MTIA 2代均由Broadcom制造。Jericho3-AI是AI网络核心交换芯片。随着OpenAI/Meta等加速开发自定义芯片脱离NVIDIA，Broadcom是最大受益者。FY25营收$515亿(+44% YoY)，AI相关营收$127亿（+220% YoY）。股息稳定，FCF强劲，相比纯AI云股更防御性。",
+      "catalysts": [
+        "新一代Google TPU/Meta MTIA合同公告",
+        "AI网络芯片市场份额持续提升",
+        "FY26 Q1财报（预计6月）",
+        "OpenAI定制芯片量产（Broadcom代制造）",
+        "AI数据中心网络升级周期加速"
+      ],
+      "risk": "市值$2T+，增长弹性有限（不是10x机会）；Google/Meta自研能力提升可能降低对Broadcom依赖；VMware整合执行风险",
+      "conviction": "medium",
+      "suggested_action": "add_to_watchlist",
+      "position_sizing": "战术仓位4-6%；当前$406入场合理，等待回调至$385-395更佳",
+      "source": "AI芯片竞争格局研究 + WebSearch"
+    },
+    {
+      "rank": 11,
+      "symbol": "IONQ.US",
+      "name": "IonQ Inc.",
+      "current_price": 46.09,
+      "prev_price": null,
+      "gain_since_pick": "新发现",
+      "sector": "adjacent_quantum_computing",
+      "thesis": "量子计算最具投资价值的纯股。世界纪录99.99%量子门保真度。12个月涨幅712%但仍有长期增长空间。政府合同驱动收入。2025-2030年量子计算市场CAGR 30%+。NVDA Jensen Huang公开说量子计算15-30年才商业化，但IonQ的政府/研究合同已创造真实收入。陷阱：估值极端；机会：技术领先+最高流动性量子纯股。",
+      "catalysts": [
+        "新政府/国防量子计算合同",
+        "量子体积或算法性能新纪录",
+        "IonQ Forte Enterprise商业化进展",
+        "量子纠错里程碑突破",
+        "量子计算监管政策支持（国家安全应用）"
+      ],
+      "risk": "技术商业化时间线极不确定（仍处于NISQ时代）；估值极高（市盈率无意义，市销率>100x）；竞争者众多（IBM、Google、Rigetti等）；量子优越性实际应用仍受限",
+      "conviction": "speculative",
+      "suggested_action": "add_to_watchlist",
+      "position_sizing": "试探仓位1-2%，3-5年视角；等待回调至$40-42区间建仓",
+      "source": "量子计算赛道研究 + WebSearch（IonQ 99.99%保真度纪录）"
+    },
+    {
+      "rank": 12,
+      "symbol": "SMR.US",
+      "name": "NuScale Power",
+      "current_price": null,
+      "sector": "adjacent_nuclear_energy",
+      "thesis": "全球首个获NRC设计批准的SMR技术商。",
+      "catalysts": ["首个商业项目落地", "AI数据中心客户签约"],
+      "risk": "历史执行失败（UAMPS项目取消），极小营收规模",
+      "conviction": "speculative",
+      "suggested_action": "watch",
+      "position_sizing": "暂观察，有项目落地进展可建0.5-1%",
+      "source": "上次Scout"
+    }
+  ],
+  "new_this_session": ["AVGO.US", "IONQ.US"],
+  "upgraded_this_session": [],
+  "removed": [],
+  "attention_flags": [
+    {
+      "symbol": "ASTS.US",
+      "flag": "⚡ BlueBird-7 发射4月19日（明日），最大近期催化剂。成功→周一开盘加仓评估；失败→重新评估论据",
+      "urgency": "critical"
+    },
+    {
+      "symbol": "CBRS",
+      "flag": "Cerebras S-1已于4/17提交，IPO预计5月，CBRS将在Nasdaq上市。目标估值$22-25B。OpenAI $10B合同+Amazon AWS集成+股权投资。上市首日立即评估是否建仓。",
+      "urgency": "high"
+    },
+    {
+      "symbol": "GEV.US",
+      "flag": "Q1 2026财报4月22日发布。股价$1003超分析师共识目标价$842，财报反应决定是否建仓",
+      "urgency": "high"
+    },
+    {
+      "symbol": "OKLO.US",
+      "flag": "自上次侦察+23.9%，当前$66.81。核能论据持续强化但短期追高风险，等回调至$58-62",
+      "urgency": "medium"
+    },
+    {
+      "symbol": "HOOD.US",
+      "flag": "4/28 Q1财报是本周最后观察窗口。SEC PDT废除是超级催化剂，若财报强劲可加仓",
+      "urgency": "medium"
+    }
+  ],
+  "summary": {
+    "new_discoveries": [
+      "AVGO.US（Broadcom，$406.54 — 超大规模XPU+AI网络芯片双引擎，更防御性的AI基础设施标的）",
+      "IONQ.US（IonQ，$46.09 — 量子计算最高质量纯股，99.99%保真度，政府合同，3-5年投机押注）"
+    ],
+    "top_alert": "ASTS BlueBird-7 4/19（明日）发射是本次侦察最大近期催化剂。成功发射=星座能力3.5x提升+直接商业服务落地。股价$85.53已从$99回落13.6%，是绝佳入场窗口（如果你认可论据）。",
+    "macro_context": "地缘风险全面消退（伊朗重开霍尔木兹海峡+BTC $78K确认风险偏好）。Nasdaq 13连涨历史纪录。AI超级周期TSMC +35% YoY确认。Cerebras IPO即将开启AI芯片公开市场。核能成为AI数据中心首选清洁能源（PJM 15GW扩容 → CEG/GEV/OKLO受益）。量子计算赛道（IONQ）是3-5年高赔率押注。"
+  }
+}
