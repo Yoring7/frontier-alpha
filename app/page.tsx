@@ -1,5 +1,5 @@
 import { getHoldings, getPerformanceSeries, getBestSession, getScoutPicks } from '@/lib/data'
-import { getLatestPostmarketReport } from '@/lib/reports'
+import { getLatestPostmarketReport, getLatestSessionLabel } from '@/lib/reports'
 import { fmt, fmtSign, stripSuffix } from '@/lib/types'
 import Header from '@/components/Header'
 import Link from 'next/link'
@@ -12,6 +12,7 @@ export default async function HomePage() {
   const holdings = getHoldings()
   const series = getPerformanceSeries()
   const latestReport = getLatestPostmarketReport()
+  const sessionLabel = getLatestSessionLabel()
   const bestSession = getBestSession()
   const scoutPicks = getScoutPicks()
   const s = holdings.summary
@@ -32,7 +33,7 @@ export default async function HomePage() {
 
   return (
     <div className={styles.page}>
-      <Header active="overview" date={holdings.last_updated} session="盘后" />
+      <Header active="overview" date={holdings.last_updated} session={sessionLabel || undefined} />
 
       {/* Alert bar */}
       {alertFlag && (

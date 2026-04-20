@@ -3,9 +3,12 @@
 import { useEffect, useRef } from 'react'
 
 interface DataPoint { date: string; nav: number; navPct: number }
-interface Props { series: DataPoint[] }
+interface Props {
+  series: DataPoint[]
+  height?: number
+}
 
-export default function PerformanceChart({ series }: Props) {
+export default function PerformanceChart({ series, height = 260 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -45,7 +48,7 @@ export default function PerformanceChart({ series }: Props) {
         handleScroll: false,
         handleScale: false,
         width: containerRef.current.clientWidth,
-        height: containerRef.current.clientHeight || 240,
+        height,
       })
 
       const areaSeries = chart.addAreaSeries({
@@ -71,22 +74,18 @@ export default function PerformanceChart({ series }: Props) {
         if (containerRef.current && chart) {
           chart.applyOptions({
             width: containerRef.current.clientWidth,
-            height: containerRef.current.clientHeight || 240,
+            height,
           })
         }
       })
-      if (containerRef.current) ro.observe(containerRef.current)
+      ro.observe(containerRef.current)
     })
 
     return () => {
       chart?.remove()
       ro?.disconnect()
     }
-  }, [series])
+  }, [series, height])
 
-  return (
-    <div style={{ position: 'relative', flex: 1, minHeight: 240 }}>
-      <div ref={containerRef} style={{ position: 'absolute', inset: 0 }} />
-    </div>
-  )
+  return <div ref={containerRef} style={{ width: '100%', height }} />
 }

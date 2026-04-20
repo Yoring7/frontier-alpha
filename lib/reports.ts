@@ -52,6 +52,27 @@ export function getLatestPostmarketReport(): ReportMeta | null {
   return all.find(r => r.type === 'postmarket') ?? null
 }
 
+/** Latest report of any type — used for the session badge in the header */
+export function getLatestReport(): ReportMeta | null {
+  const all = getAllReports()
+  return all.length > 0 ? all[0] : null
+}
+
+const SESSION_BADGE_LABELS: Record<string, string> = {
+  postmarket: '盘后',
+  premarket:  '盘前',
+  midsession: '盘中',
+  weekly:     '周研',
+  scout:      'Scout',
+}
+
+/** Returns short Chinese session label from the latest report file, e.g. "盘前" */
+export function getLatestSessionLabel(): string {
+  const latest = getLatestReport()
+  if (!latest) return ''
+  return SESSION_BADGE_LABELS[latest.type] ?? latest.type
+}
+
 export function getReportBySlug(slug: string): ReportMeta | null {
   const all = getAllReports()
   return all.find(r => r.slug === slug) ?? null

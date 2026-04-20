@@ -152,9 +152,6 @@
   border-right: 1px solid var(--border-subtle);
   min-width: 0;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 320px;
 }
 
 .perfTop {
@@ -162,7 +159,6 @@
   align-items: baseline;
   justify-content: space-between;
   margin-bottom: 14px;
-  flex-shrink: 0;
 }
 
 .sectionLabel {
