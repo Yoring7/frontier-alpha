@@ -4,13 +4,38 @@
   min-height: 100vh;
 }
 
+/* ── Alert bar ── */
+.alertBar {
+  background: var(--amber-bg);
+  border-bottom: 1px solid var(--amber-border);
+  padding: 9px 32px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.alertIcon { font-size: 0.85rem; }
+
+.alertText {
+  font-family: var(--f-mono);
+  font-size: 0.75rem;
+  color: var(--amber);
+  letter-spacing: 0.04em;
+}
+
+.alertTime {
+  font-family: var(--f-mono);
+  font-size: 0.72rem;
+  color: var(--amber);
+  opacity: 0.6;
+  margin-left: auto;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 /* ── Hero ── */
 .hero {
   padding: 52px 32px 40px;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 40px;
-  align-items: end;
   border-bottom: 1px solid var(--border);
 }
 
@@ -31,40 +56,36 @@
   margin-bottom: 20px;
 }
 
-.brandF { color: var(--ink); display: block; }
-.brandA { color: var(--amber); display: block; }
+.brandF {
+  color: var(--ink);
+  display: block;
+}
+
+.brandA {
+  color: var(--amber);
+  display: block;
+}
 
 .heroTagline {
   font-family: var(--f-body);
   font-size: 1.0rem;
   color: var(--body);
-  max-width: 480px;
+  max-width: 620px;
   line-height: 1.65;
 }
 
-.heroRight {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 6px;
+.heroTagline strong {
+  color: var(--ink);
+  font-weight: 500;
 }
 
-.heroNav {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  align-items: flex-end;
-}
-
-.heroNavLink {
-  font-family: var(--f-mono);
-  font-size: 0.78rem;
+.heroTaglineSub {
+  font-size: 0.88rem;
   color: var(--muted);
-  letter-spacing: 0.06em;
-  transition: color 0.15s;
+  font-weight: 400;
+  display: block;
+  margin-top: 6px;
 }
-
-.heroNavLink:hover { color: var(--amber); }
 
 /* ── Stats row ── */
 .statsRow {
@@ -98,6 +119,15 @@
   line-height: 1;
 }
 
+.statValueSub {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.statValueDate {
+  font-size: 1.1rem;
+}
+
 .statSub {
   font-family: var(--f-mono);
   font-size: 0.75rem;
@@ -108,94 +138,162 @@
 
 .gain { color: var(--gain); }
 .loss { color: var(--loss); }
+.amber { color: var(--amber); }
 
-/* ── Content row ── */
-.contentRow {
+/* ── Performance section ── */
+.perfSection {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 248px;
   border-bottom: 1px solid var(--border);
-  min-height: 280px;
 }
 
-.chartSection {
-  padding: 24px 28px;
-  border-right: 1px solid var(--border);
+.perfChartCol {
+  padding: 22px 32px 18px;
+  border-right: 1px solid var(--border-subtle);
+  min-width: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+}
+
+.perfTop {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  flex-shrink: 0;
+}
+
+.sectionLabel {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.perfMetricsCol {
+  padding: 22px 20px;
   display: flex;
   flex-direction: column;
 }
 
-.chartLabel {
+.perfColLabel {
   font-family: var(--f-mono);
   font-size: 0.68rem;
   color: var(--muted);
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 12px;
-  flex-shrink: 0;
 }
 
-/* ── Nav grid ── */
+.perfMetric {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.perfMetric:last-child { border-bottom: none; }
+
+.perfMLabel {
+  font-family: var(--f-mono);
+  font-size: 0.64rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.perfMVal {
+  font-family: var(--f-mono);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--strong);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.perfMSub {
+  font-family: var(--f-mono);
+  font-size: 0.64rem;
+  color: var(--muted);
+  margin-top: 1px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Nav grid: 4 cards ── */
 .navGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid var(--border);
 }
 
 .navCard {
   border-right: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  padding: 24px 22px;
+  padding: 32px 28px;
   display: flex;
   flex-direction: column;
   transition: background 0.15s;
+  position: relative;
+  overflow: hidden;
 }
 
-.navCard:nth-child(2n) { border-right: none; }
+.navCard:nth-child(4n) { border-right: none; }
 .navCard:hover { background: var(--surface); }
+.navCard:hover .cardArrow { opacity: 1; transform: translateX(0); }
 
 .cardNum {
   font-family: var(--f-mono);
   font-size: 0.68rem;
   color: var(--faint);
   letter-spacing: 0.10em;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .cardTitle {
   font-family: var(--f-human);
-  font-size: 1.40rem;
+  font-size: 1.80rem;
   color: var(--ink);
   line-height: 1.1;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .cardTitle span { color: var(--amber); }
 
 .cardDesc {
   font-family: var(--f-body);
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: var(--muted);
   line-height: 1.6;
   flex: 1;
 }
 
 .cardMeta {
-  margin-top: 14px;
+  margin-top: 24px;
   display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 4px;
 }
 
-.cardMetaVal {
+.cardStat {
   font-family: var(--f-mono);
-  font-size: 0.78rem;
+  font-size: 0.75rem;
+  color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
 
-.cardMetaLabel {
+.hi { color: var(--gain); }
+.warn { color: var(--amber); }
+
+.cardArrow {
   font-family: var(--f-mono);
-  font-size: 0.70rem;
-  color: var(--faint);
-  letter-spacing: 0.05em;
+  font-size: 0.78rem;
+  color: var(--amber);
+  margin-top: 16px;
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.15s, transform 0.15s;
 }
 
 /* ── Report strip ── */
@@ -245,3 +343,28 @@
 }
 
 .reportMore:hover { text-decoration: underline; }
+
+/* ── Footer ── */
+.footer {
+  padding: 16px 32px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.footerBrand {
+  font-family: var(--f-human);
+  font-size: 0.95rem;
+  color: var(--faint);
+}
+
+.footerBrand span { color: var(--amber); }
+
+.footerMeta {
+  font-family: var(--f-mono);
+  font-size: 0.70rem;
+  color: var(--faint);
+  letter-spacing: 0.06em;
+}

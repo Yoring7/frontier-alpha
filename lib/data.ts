@@ -52,6 +52,21 @@ export function getLatestSnapshot(): Snapshot | null {
   return snaps.length > 0 ? snaps[snaps.length - 1] : null
 }
 
+export function getBestSession(): { date: string; pct: number } | null {
+  const snaps = getSnapshots()
+  if (snaps.length < 2) return null
+  let best: { date: string; pct: number } | null = null
+  for (let i = 1; i < snaps.length; i++) {
+    const prev = snaps[i - 1].summary.portfolio_value
+    const curr = snaps[i].summary.portfolio_value
+    const pct = (curr - prev) / prev * 100
+    if (best === null || pct > best.pct) {
+      best = { date: snaps[i].snapshot_date, pct }
+    }
+  }
+  return best
+}
+
 export function getPerformanceSeries(): Array<{ date: string; nav: number; navPct: number }> {
   const snaps = getSnapshots()
   if (snaps.length === 0) return []

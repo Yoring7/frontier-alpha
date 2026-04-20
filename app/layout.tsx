@@ -3,7 +3,7 @@ import '@/styles/globals.css'
 
 export const metadata: Metadata = {
   title: 'Frontier Alpha',
-  description: '前沿科技模拟基金 — 每日盘后更新',
+  description: 'Frontier Alpha — Structured Conviction Fund · 前沿科技结构化信念基金',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -16,21 +16,21 @@ export default function PositionChart({ prices, isGain }: Props) {
     import('lightweight-charts').then(({ createChart, ColorType, LineStyle }) => {
       if (!ref.current) return
 
-      const color = isGain ? 'oklch(0.38 0.120 145)' : 'oklch(0.42 0.150 25)'
+      const color = isGain ? '#3d8c52' : '#b54030'
 
       chart = createChart(ref.current, {
         layout: {
           background: { type: ColorType.Solid, color: 'transparent' },
-          textColor: 'oklch(0.52 0.010 68)',
+          textColor: '#a0967c',
           fontFamily: "'JetBrains Mono', monospace",
           fontSize: 10,
         },
         grid: {
-          vertLines: { color: 'oklch(0.91 0.006 75)', style: LineStyle.Dotted },
-          horzLines: { color: 'oklch(0.91 0.006 75)', style: LineStyle.Dotted },
+          vertLines: { color: 'rgba(180,168,148,0.18)', style: LineStyle.Dotted },
+          horzLines: { color: 'rgba(180,168,148,0.18)', style: LineStyle.Dotted },
         },
-        rightPriceScale: { borderColor: 'oklch(0.85 0.010 74)' },
-        timeScale: { borderColor: 'oklch(0.85 0.010 74)', visible: false },
+        rightPriceScale: { borderColor: '#d9d3cb' },
+        timeScale: { borderColor: '#d9d3cb', visible: false },
         handleScroll: false,
         handleScale: false,
         width: ref.current.clientWidth,

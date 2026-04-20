@@ -1,0 +1,523 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ── Entrance animations ── */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.a {
+  opacity: 0;
+  animation: rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.d1 { animation-delay: 0.05s; }
+.d2 { animation-delay: 0.20s; }
+.d3 { animation-delay: 0.36s; }
+.d4 { animation-delay: 0.52s; }
+.d5 { animation-delay: 0.68s; }
+.d6 { animation-delay: 0.84s; }
+
+/* ── Cover ── */
+.cover {
+  min-height: calc(100svh - 48px);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: 64px 96px;
+}
+
+.coverTop {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--f-mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+}
+
+.coverCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px 0;
+}
+
+.brandMark {
+  font-family: var(--f-human);
+  font-size: clamp(72px, 10vw, 140px);
+  line-height: 0.90;
+  letter-spacing: -0.025em;
+  margin-bottom: 32px;
+}
+
+.brandFrontier {
+  color: var(--ink);
+  display: block;
+}
+
+.brandAlpha {
+  color: var(--amber);
+  display: block;
+}
+
+.coverRule {
+  width: 56px;
+  height: 1px;
+  background: var(--border);
+  margin: 32px 0;
+}
+
+.coverEn {
+  font-family: var(--f-body);
+  font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.35;
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+}
+
+.coverEn em {
+  color: var(--amber);
+  font-style: normal;
+}
+
+.coverZh {
+  font-family: var(--f-body);
+  font-size: 1.0rem;
+  color: var(--body);
+  line-height: 1.75;
+}
+
+.coverBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: var(--f-mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+}
+
+.coverFundType {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--amber);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* ── Shared section ── */
+.section {
+  padding: 96px;
+  border-top: 1px solid var(--border);
+}
+
+.label {
+  font-family: var(--f-mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+/* ── 01 Thesis ── */
+.thesisGrid {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+  gap: 0 48px;
+  align-items: start;
+}
+
+.thesisSep {
+  background: var(--border);
+  min-height: 300px;
+}
+
+.sideLabel {
+  font-family: var(--f-mono);
+  font-size: 0.76rem;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.philosophyQuote {
+  font-family: var(--f-human);
+  font-size: clamp(1.4rem, 2.6vw, 2.1rem);
+  color: var(--ink);
+  line-height: 1.28;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+.philosophyAttr {
+  font-family: var(--f-body);
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 32px;
+}
+
+.pillar {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.pillar:last-child { border-bottom: none; }
+
+.pillarNum {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  color: var(--amber);
+  letter-spacing: 0.08em;
+  flex-shrink: 0;
+  width: 20px;
+}
+
+.pillarText {
+  font-family: var(--f-body);
+  font-size: 0.88rem;
+  color: var(--body);
+  line-height: 1.5;
+}
+
+.dataRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-subtle);
+  gap: 16px;
+}
+
+.dataRow:last-child { border-bottom: none; }
+
+.dlabel {
+  font-family: var(--f-mono);
+  font-size: 0.76rem;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.dval {
+  font-family: var(--f-mono);
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--amber);
+  font-variant-numeric: tabular-nums;
+}
+
+.dvalStrong { color: var(--strong); }
+.dvalGain   { color: var(--gain); }
+.dvalLoss   { color: var(--loss); }
+
+/* ── 02 Platforms ── */
+.platformsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--border);
+  margin-bottom: 32px;
+}
+
+.platformCard {
+  background: var(--bg);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  transition: background 0.15s;
+}
+
+.platformCard:hover { background: var(--surface); }
+
+.pcNum {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  color: var(--muted);
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+}
+
+.pcEn {
+  font-family: var(--f-human);
+  font-size: clamp(1.3rem, 1.8vw, 1.8rem);
+  color: var(--ink);
+  line-height: 1.1;
+  margin-top: 8px;
+}
+
+.pcZh {
+  font-family: var(--f-mono);
+  font-size: 0.76rem;
+  color: var(--amber);
+  letter-spacing: 0.06em;
+  margin-top: 4px;
+}
+
+.pcThesis {
+  font-family: var(--f-body);
+  font-size: 0.86rem;
+  color: var(--body);
+  line-height: 1.6;
+  margin-top: 12px;
+  flex: 1;
+}
+
+.pcAxiom {
+  font-family: var(--f-human);
+  font-size: 1.0rem;
+  color: var(--ink);
+  font-style: italic;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.pcHoldings {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pcTag {
+  font-family: var(--f-mono);
+  font-size: 0.65rem;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  padding: 2px 8px;
+  letter-spacing: 0.04em;
+  transition: color 0.12s, border-color 0.12s;
+}
+
+.pcTag:hover {
+  color: var(--amber);
+  border-color: var(--amber-border);
+}
+
+.platformsNote {
+  font-family: var(--f-body);
+  font-size: 0.85rem;
+  color: var(--muted);
+  max-width: 680px;
+  line-height: 1.65;
+}
+
+/* ── 03 Process ── */
+.processIntro {
+  font-family: var(--f-body);
+  font-size: 1.0rem;
+  color: var(--body);
+  line-height: 1.7;
+  max-width: 660px;
+  margin-bottom: 48px;
+}
+
+.processIntro strong { color: var(--ink); }
+
+.processChain {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--border);
+  margin-bottom: 1px;
+}
+
+.pcAgent {
+  background: var(--bg);
+  padding: 24px;
+  transition: background 0.15s;
+}
+
+.pcAgent:hover { background: var(--surface); }
+
+.agentDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.agentRole {
+  font-family: var(--f-mono);
+  font-size: 0.76rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.agentName {
+  font-family: var(--f-human);
+  font-size: 1.5rem;
+  color: var(--ink);
+  margin-bottom: 16px;
+}
+
+.agentDesc {
+  font-family: var(--f-body);
+  font-size: 0.84rem;
+  color: var(--body);
+  line-height: 1.6;
+}
+
+.agentScore {
+  font-family: var(--f-mono);
+  font-size: 0.73rem;
+  color: var(--muted);
+  margin-top: 16px;
+}
+
+.processResult {
+  background: var(--surface);
+  padding: 24px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.prQuote {
+  font-family: var(--f-human);
+  font-size: 1.05rem;
+  color: var(--ink);
+  font-style: italic;
+  flex: 1;
+}
+
+.prStat {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.prStatVal {
+  font-family: var(--f-mono);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--amber);
+}
+
+.prStatLabel {
+  font-family: var(--f-mono);
+  font-size: 0.70rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+/* ── 04 Convictions ── */
+.convictionsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--border);
+}
+
+.convictionCard {
+  background: var(--bg);
+  padding: 32px 24px;
+  transition: background 0.15s;
+}
+
+.convictionCard:hover { background: var(--surface); }
+
+.ccNum {
+  font-family: var(--f-mono);
+  font-size: 0.68rem;
+  color: var(--amber);
+  letter-spacing: 0.10em;
+  margin-bottom: 16px;
+}
+
+.ccTitle {
+  font-family: var(--f-human);
+  font-size: 1.3rem;
+  color: var(--ink);
+  margin-bottom: 12px;
+}
+
+.ccBody {
+  font-family: var(--f-body);
+  font-size: 0.86rem;
+  color: var(--body);
+  line-height: 1.65;
+}
+
+.convictionQuote {
+  font-family: var(--f-human);
+  font-style: italic;
+  color: var(--ink);
+}
+
+/* ── 05 Closing ── */
+.closingSection {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 96px;
+}
+
+.manifestoEyebrow {
+  font-family: var(--f-mono);
+  font-size: 0.76rem;
+  color: var(--muted);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.manifestoLine {
+  font-family: var(--f-human);
+  font-size: clamp(1.3rem, 2.8vw, 2.3rem);
+  color: var(--ink);
+  line-height: 1.30;
+  margin-bottom: 16px;
+}
+
+.manifestoLine em {
+  color: var(--amber);
+  font-style: normal;
+}
+
+.manifestoDim {
+  color: var(--muted);
+  font-size: clamp(1.0rem, 2.0vw, 1.7rem);
+}
+
+.closingBlock {
+  margin-top: 64px;
+}
+
+.closingName {
+  font-family: var(--f-human);
+  font-size: 2.2rem;
+  color: var(--ink);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.closingName span { color: var(--amber); }
+
+.closingSub {
+  font-family: var(--f-mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.10em;
+}

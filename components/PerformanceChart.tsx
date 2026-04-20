@@ -13,48 +13,50 @@ export default function PerformanceChart({ series }: Props) {
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let chart: any = null
+    let ro: ResizeObserver | null = null
 
-    import('lightweight-charts').then(({ createChart, ColorType, LineStyle }) => {
+    import('lightweight-charts').then(({ createChart, ColorType }) => {
       if (!containerRef.current) return
 
       chart = createChart(containerRef.current, {
         layout: {
           background: { type: ColorType.Solid, color: 'transparent' },
-          textColor: 'oklch(0.52 0.010 68)',
+          textColor: '#a0967c',
           fontFamily: "'JetBrains Mono', monospace",
           fontSize: 10,
         },
         grid: {
-          vertLines: { color: 'oklch(0.85 0.010 74)', style: LineStyle.Dotted },
-          horzLines: { color: 'oklch(0.85 0.010 74)', style: LineStyle.Dotted },
+          vertLines: { visible: false },
+          horzLines: { color: 'rgba(180,168,148,0.18)' },
         },
         rightPriceScale: {
-          borderColor: 'oklch(0.85 0.010 74)',
+          borderVisible: false,
+          scaleMargins: { top: 0.10, bottom: 0.02 },
         },
         timeScale: {
-          borderColor: 'oklch(0.85 0.010 74)',
-          tickMarkFormatter: (t: number) => {
-            const d = new Date(t * 1000)
-            return `${d.getMonth() + 1}/${d.getDate()}`
-          },
+          borderVisible: false,
+          fixLeftEdge: true,
+          fixRightEdge: true,
         },
         crosshair: {
-          vertLine: { color: 'oklch(0.50 0.140 65)', width: 1 },
-          horzLine: { color: 'oklch(0.50 0.140 65)', width: 1 },
+          vertLine: { color: 'rgba(140,120,80,0.35)', labelBackgroundColor: '#c09030' },
+          horzLine: { color: 'rgba(140,120,80,0.35)', labelBackgroundColor: '#c09030' },
         },
         handleScroll: false,
         handleScale: false,
         width: containerRef.current.clientWidth,
-        height: containerRef.current.clientHeight || 220,
+        height: containerRef.current.clientHeight || 240,
       })
 
-      const lineSeries = chart.addLineSeries({
-        color: 'oklch(0.50 0.140 65)',
+      const areaSeries = chart.addAreaSeries({
+        lineColor: '#c09030',
+        topColor: 'rgba(192,144,48,0.18)',
+        bottomColor: 'rgba(192,144,48,0)',
         lineWidth: 2,
         lastValueVisible: true,
         priceLineVisible: false,
         crosshairMarkerRadius: 4,
-        crosshairMarkerBackgroundColor: 'oklch(0.50 0.140 65)',
+        crosshairMarkerBackgroundColor: '#c09030',
       })
 
       const data = series.map(p => ({
@@ -62,29 +64,29 @@ export default function PerformanceChart({ series }: Props) {
         value: parseFloat((100 + p.navPct).toFixed(2)),
       }))
 
-      lineSeries.setData(data)
+      areaSeries.setData(data)
       chart.timeScale().fitContent()
 
-      const ro = new ResizeObserver(() => {
+      ro = new ResizeObserver(() => {
         if (containerRef.current && chart) {
           chart.applyOptions({
             width: containerRef.current.clientWidth,
-            height: containerRef.current.clientHeight || 220,
+            height: containerRef.current.clientHeight || 240,
           })
         }
       })
       if (containerRef.current) ro.observe(containerRef.current)
-
-      return () => ro.disconnect()
     })
 
-    return () => { chart?.remove() }
+    return () => {
+      chart?.remove()
+      ro?.disconnect()
+    }
   }, [series])
 
   return (
-    <div
-      ref={containerRef}
-      style={{ flex: 1, minHeight: 180 }}
-    />
+    <div style={{ position: 'relative', flex: 1, minHeight: 240 }}>
+      <div ref={containerRef} style={{ position: 'absolute', inset: 0 }} />
+    </div>
   )
 }
