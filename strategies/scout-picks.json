@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-04-18",
+  "last_updated": "2026-04-21",
   "session": "weekly-research",
   "market_snapshot": {
-    "date": "2026-04-18",
-    "notes": "S&P 500首破7,000（+3.3%），Nasdaq首破24,000（+5.2%），连涨12日（2009年来最长）。霍尔木兹重开，油价回落，风险情绪全面改善。🆕【关键风险】全球10%关税约7/24到期（150天）；AI芯片叠加25%关税——这是H2最大宏观变量。TSMC Q1 +58%确认AI超级周期。CRWV获Meta $210亿大单+Anthropic合同。NBIS签近$500亿合同积压（Meta+MS）。HOOD SEC PDT废除（+7%），Q1财报4/28。Cerebras S-1于4/17正式提交，CBRS IPO定于Q2。ASTS BlueBird-7今日（4/19周日）发射，发射结果是周一最大催化剂。"
+    "date": "2026-04-21",
+    "notes": "4/20 Nasdaq 13连涨终结（-0.26%，收24404），S&P -0.24%；4/21期货小幅反弹+0.2-0.3%。美伊停火本周到期（约4/24），第二轮谈判进行中，原油维持高位（Brent ~$94），是当前最大宏观风险变量。Tim Cook宣布退任Apple CEO，苹果动向牵动大盘情绪。"
   },
   "watchlist_review": [
     {
@@ -322,28 +322,43 @@
   "removed": [],
   "attention_flags": [
     {
-      "symbol": "ASTS.US",
-      "flag": "⚡ BlueBird-7 发射4月19日（明日），最大近期催化剂。成功→周一开盘加仓评估；失败→重新评估论据",
+      "symbol": "GEV.US",
+      "flag": "⚡ Q1 2026财报明日（4/22）发布，EPS预期$1.79，营收$9.18B，全年指引上调至$44-45B。强劲财报→评估$880-920建仓；不及预期→维持观察",
       "urgency": "critical"
     },
     {
-      "symbol": "CBRS",
-      "flag": "Cerebras S-1已于4/17提交，IPO预计5月，CBRS将在Nasdaq上市。目标估值$22-25B。OpenAI $10B合同+Amazon AWS集成+股权投资。上市首日立即评估是否建仓。",
-      "urgency": "high"
-    },
-    {
-      "symbol": "GEV.US",
-      "flag": "Q1 2026财报4月22日发布。股价$1003超分析师共识目标价$842，财报反应决定是否建仓",
-      "urgency": "high"
-    },
-    {
-      "symbol": "OKLO.US",
-      "flag": "自上次侦察+23.9%，当前$66.81。核能论据持续强化但短期追高风险，等回调至$58-62",
-      "urgency": "medium"
+      "symbol": "MACRO",
+      "flag": "⚠️ 美伊停火协议本周到期（约4/24），第二轮谈判进行中。若谈判破裂→原油继续上涨→评估TQQQ/SOXL对冲减仓；谈判成功→风险情绪改善",
+      "urgency": "critical"
     },
     {
       "symbol": "HOOD.US",
-      "flag": "4/28 Q1财报是本周最后观察窗口。SEC PDT废除是超级催化剂，若财报强劲可加仓",
+      "flag": "Q1财报4/28（本周四），Mizuho上调目标价至$115（当前~$91，+26%上行空间）。SEC PDT废除催化剂持续发酵，持有等财报",
+      "urgency": "high"
+    },
+    {
+      "symbol": "CBRS",
+      "flag": "Cerebras S-1已于4/17提交，IPO预计5月路演。$250亿以下估值考虑试探仓。OpenAI $10B合同+Amazon AWS集成确认AI推理赛道",
+      "urgency": "high"
+    },
+    {
+      "symbol": "RKLB.US",
+      "flag": "Stifel上调目标价至$105（华尔街最高），Q1财报5/7。4/20小幅回调，但论据不变（Mynaric整合+iQPS多发协议）。核心持仓维持",
+      "urgency": "high"
+    },
+    {
+      "symbol": "ASTS.US",
+      "flag": "BlueBird-7（4/19）全损复盘：Blue Origin New Glenn上面级失败，保险覆盖成本。BB8-10约30天就绪（~5/20），公司维持45颗全年目标。持有不加仓，等5月发射窗口",
+      "urgency": "medium"
+    },
+    {
+      "symbol": "NVDA.US",
+      "flag": "4月涨幅+21%（11日连涨），AI超级周期持续确认。短期需消化涨幅，但核心逻辑不变。继续持有，不追高加仓",
+      "urgency": "medium"
+    },
+    {
+      "symbol": "OKLO.US",
+      "flag": "从$53上涨至$66.81（+23.9%），短期追高风险。核能论据持续强化（PJM+GEV合同），等回调至$58-62区间可加仓",
       "urgency": "medium"
     }
   ],
