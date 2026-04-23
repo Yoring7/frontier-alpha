@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-24",
+  "session": "postmarket",
+  "portfolio_value": 118745.06,
+  "cash_balance": 7516.00,
+  "total_market_value": 111229.06,
+  "cumulative_pnl": 18745.06,
+  "cumulative_pnl_pct": 18.75,
+  "daily_pnl": -2307.55,
+  "daily_pnl_pct": -1.91,
+  "initial_capital": 100000,
+  "positions": [
+    {"symbol": "NVDA.US", "quantity": 108, "avg_cost": 181.85, "close": 199.64, "market_value": 21561.12, "unrealized_pnl": 1921.32, "unrealized_pnl_pct": 9.78, "daily_chg_pct": -1.41},
+    {"symbol": "RKLB.US", "quantity": 231, "avg_cost": 70.39, "close": 84.60, "market_value": 19542.60, "unrealized_pnl": 3282.51, "unrealized_pnl_pct": 20.20, "daily_chg_pct": -6.04},
+    {"symbol": "CRWV.US", "quantity": 173, "avg_cost": 89.67, "close": 117.42, "market_value": 20313.66, "unrealized_pnl": 4800.92, "unrealized_pnl_pct": 30.95, "daily_chg_pct": -4.18},
+    {"symbol": "SOXL.US", "quantity": 150, "avg_cost": 66.05, "close": 112.77, "market_value": 16915.50, "unrealized_pnl": 7008.00, "unrealized_pnl_pct": 70.74, "daily_chg_pct": 6.75},
+    {"symbol": "NBIS.US", "quantity": 81, "avg_cost": 122.09, "close": 157.08, "market_value": 12723.48, "unrealized_pnl": 2834.19, "unrealized_pnl_pct": 28.66, "daily_chg_pct": 0.60},
+    {"symbol": "ASTS.US", "quantity": 76, "avg_cost": 96.13, "close": 78.75, "market_value": 5985.00, "unrealized_pnl": -1321.03, "unrealized_pnl_pct": -18.08, "daily_chg_pct": -6.98},
+    {"symbol": "TQQQ.US", "quantity": 100, "avg_cost": 51.04, "close": 59.22, "market_value": 5922.00, "unrealized_pnl": 818.50, "unrealized_pnl_pct": 16.04, "daily_chg_pct": -1.64},
+    {"symbol": "HOOD.US", "quantity": 75, "avg_cost": 89.17, "close": 83.54, "market_value": 6265.50, "unrealized_pnl": -422.48, "unrealized_pnl_pct": -6.32, "daily_chg_pct": -5.53},
+    {"symbol": "CRCL.US", "quantity": 20, "avg_cost": 107.28, "close": 100.01, "market_value": 2000.20, "unrealized_pnl": -145.30, "unrealized_pnl_pct": -6.77, "daily_chg_pct": -4.17}
+  ],
+  "sector_allocation": {
+    "ai_semiconductor": {"value": 71513.76, "pct": 60.2},
+    "space": {"value": 25527.60, "pct": 21.5},
+    "fintech_crypto": {"value": 8265.70, "pct": 7.0},
+    "index_etf": {"value": 5922.00, "pct": 5.0},
+    "cash": {"value": 7516.00, "pct": 6.3}
+  },
+  "notes": "4/24 盘后。无新交易。今日主题：成长股普跌（RKLB-6%、ASTS-7%、HOOD-5.5%），半导体逆势走强（SOXL+6.75%）；Intel Q1 营收大超+9.9%，Lam Research 净利+14.5%。ASTS FCC 商业授权（248颗卫星）为历史里程碑，但股价回吐。HOOD 新加坡 MAS 原则性批准，4/28 财报关键。累计 +18.75%。"
+}

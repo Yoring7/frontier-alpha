@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-04-18",
-  "last_updated_source": "postmarket_2026-04-18",
+  "last_updated": "2026-04-24",
+  "last_updated_source": "postmarket_2026-04-24",
   "base_currency": "USD",
   "account_type": "paper",
   "initial_capital": 100000,
@@ -12,166 +12,172 @@
       "quantity": 108,
       "avg_cost": 181.85,
       "cost_basis": 19639.80,
-      "last_price": 201.68,
-      "market_value": 21781.44,
-      "unrealized_pnl": 2141.64,
-      "unrealized_pnl_pct": 10.91,
+      "last_price": 199.64,
+      "market_value": 21561.12,
+      "unrealized_pnl": 1921.32,
+      "unrealized_pnl_pct": 9.78,
       "currency": "USD",
       "sector": "ai_semiconductor",
       "entry_date": "2026-04-08",
       "entry_session": "midsession",
-      "notes": "收盘$201.68(+1.68%)。AI芯片霸主，Vera Rubin平台量产，TSMC Q1+35% YoY确认超级周期。Nasdaq连涨13日，Mag7回归。持有，让赢家奔跑。"
+      "notes": "收盘$199.64(-1.41%)。TD Cowen维持Buy，OpenAI GPT-5.5运行NVIDIA基础设施。正常回调，论据不变。持有。"
     },
     {
       "symbol": "RKLB.US",
       "quantity": 231,
       "avg_cost": 70.39,
       "cost_basis": 16260.09,
-      "last_price": 84.80,
-      "market_value": 19588.80,
-      "unrealized_pnl": 3328.71,
-      "unrealized_pnl_pct": 20.47,
+      "last_price": 84.60,
+      "market_value": 19542.60,
+      "unrealized_pnl": 3282.51,
+      "unrealized_pnl_pct": 20.20,
       "currency": "USD",
       "sector": "space",
       "entry_date": "2026-04-08",
       "entry_session": "midsession",
-      "notes": "收盘$84.80(+2.25%)。完成Mynaric收购（激光光学通信）+ 发布Gauss电推进器，战略扩展至卫星子系统。公允价值~$98（+15%上行）。Q1财报5/7。持有，让赢家奔跑。"
+      "notes": "收盘$84.60(-6.04%)。宏观去风险+RSI 68.6技术压力，非基本面。完成第2次JAXA任务'Kakushin Rising'（8颗卫星），2026年第8次发射。Stifel目标$105，Roth Capital $100。5/7财报，营收预期$189.81M(YoY+55%)。持有。"
     },
     {
       "symbol": "CRWV.US",
       "quantity": 173,
       "avg_cost": 89.669,
       "cost_basis": 15512.74,
-      "last_price": 116.85,
-      "market_value": 20215.05,
-      "unrealized_pnl": 4702.31,
-      "unrealized_pnl_pct": 30.31,
+      "last_price": 117.42,
+      "market_value": 20313.66,
+      "unrealized_pnl": 4800.92,
+      "unrealized_pnl_pct": 30.95,
       "currency": "USD",
       "sector": "ai_semiconductor",
       "entry_date": "2026-04-08",
       "entry_session": "midsession",
-      "notes": "收盘$116.85(-2.27%)，正常回调。本月仍+30%。AI基础设施需求强劲：本周两次发债$1B+，Google关联数据中心$6.7B债券。合同积压$66B+。持有。"
+      "notes": "收盘$117.42(-4.18%)，正常回调。合同积压$66B+，AI基础设施需求超级周期论据不变。持有。"
     },
     {
       "symbol": "SOXL.US",
       "quantity": 150,
       "avg_cost": 66.05,
       "cost_basis": 9907.50,
-      "last_price": 94.68,
-      "market_value": 14202.00,
-      "unrealized_pnl": 4294.50,
-      "unrealized_pnl_pct": 43.35,
+      "last_price": 112.77,
+      "market_value": 16915.50,
+      "unrealized_pnl": 7008.00,
+      "unrealized_pnl_pct": 70.74,
       "currency": "USD",
       "sector": "ai_semiconductor",
       "entry_date": "2026-04-08",
       "entry_session": "midsession",
-      "notes": "收盘$94.68(+7.14%)，今日最强表现。Nasdaq连涨13日推动半导体ETF爆发。AI/半导体赛道占比63.7%超出60%软上限（被动超配），下次加仓前需再平衡。持有。"
+      "notes": "收盘$112.77(+6.75%)，今日最强。Intel Q1大超(营收$135.8B vs预期$123.6B)，Lam Research净利+14.5%，半导体板块逆势走强。盘后$115.94。持有，让赢家奔跑。"
     },
     {
       "symbol": "NBIS.US",
       "quantity": 81,
       "avg_cost": 122.09,
       "cost_basis": 9889.29,
-      "last_price": 157.14,
-      "market_value": 12728.34,
-      "unrealized_pnl": 2839.05,
-      "unrealized_pnl_pct": 28.71,
+      "last_price": 157.08,
+      "market_value": 12723.48,
+      "unrealized_pnl": 2834.19,
+      "unrealized_pnl_pct": 28.66,
       "currency": "USD",
       "sector": "ai_semiconductor",
       "entry_date": "2026-04-08",
       "entry_session": "midsession",
-      "notes": "收盘$157.14(-4.96%)：上周+33.9%后技术性获利回吐（RSI 75.2超买）。BofA目标$175，支撑$124（20日SMA）。$27B Meta合同+$2B NVIDIA战略投资论据不变。Q1财报预计5/19。持有。"
+      "notes": "收盘$157.08(+0.60%)。企稳。$27B Meta合同+$2B NVIDIA战略投资论据不变。5/19财报等催化。持有。"
     },
     {
       "symbol": "ASTS.US",
       "quantity": 76,
       "avg_cost": 96.132,
       "cost_basis": 7306.03,
-      "last_price": 85.53,
-      "market_value": 6500.28,
-      "unrealized_pnl": -805.75,
-      "unrealized_pnl_pct": -11.03,
+      "last_price": 78.75,
+      "market_value": 5985.00,
+      "unrealized_pnl": -1321.03,
+      "unrealized_pnl_pct": -18.08,
       "currency": "USD",
       "sector": "space",
       "entry_date": "2026-04-08",
       "entry_session": "postmarket_build",
-      "notes": "收盘$85.53(-5.95%)。❗BlueBird 7发射明日(4/19周日) Kennedy Space Center。发射成功→周一预案加仓80-85股@~$85-90；失败→重新评估。当前-11%，论据不变（天基蜂窝网络部署持续）。"
+      "notes": "收盘$78.75(-6.98%)。⚠️浮亏-18.08%，止损审查线$72.10(-25%)。重大利好：FCC授权商业运营天基蜂窝宽带（248颗卫星，700/800MHz，AT&T/Verizon/FirstNet协同）→历史性监管里程碑，论据强化。股价回吐系'买预期卖兑现'。若跌破$75需重新评估。"
     },
     {
       "symbol": "TQQQ.US",
       "quantity": 100,
       "avg_cost": 51.035,
       "cost_basis": 5103.50,
-      "last_price": 58.59,
-      "market_value": 5859.00,
-      "unrealized_pnl": 755.50,
-      "unrealized_pnl_pct": 14.80,
+      "last_price": 59.22,
+      "market_value": 5922.00,
+      "unrealized_pnl": 818.50,
+      "unrealized_pnl_pct": 16.04,
       "currency": "USD",
       "sector": "index_etf",
       "entry_date": "2026-04-10",
       "entry_session": "premarket",
-      "notes": "收盘$58.59(+3.83%)。Nasdaq连涨13日（1992年来最长），3x杠杆ETF受益。持有。"
+      "notes": "收盘$59.22(-1.64%)。随Nasdaq小幅回落。持有。"
     },
     {
       "symbol": "HOOD.US",
       "quantity": 75,
       "avg_cost": 89.173,
       "cost_basis": 6687.98,
-      "last_price": 90.75,
-      "market_value": 6806.25,
-      "unrealized_pnl": 118.28,
-      "unrealized_pnl_pct": 1.77,
+      "last_price": 83.54,
+      "market_value": 6265.50,
+      "unrealized_pnl": -422.48,
+      "unrealized_pnl_pct": -6.32,
       "currency": "USD",
       "sector": "fintech_crypto",
       "entry_date": "2026-04-15",
       "entry_session": "premarket",
-      "notes": "收盘$90.75(+4.49%)，75股@$89.173均价。SEC废除PDT制度性变革持续发酵。Q1财报4/28，Bernstein目标$130(+43%上行)。持有，等财报催化。"
+      "notes": "收盘$83.54(-5.53%)。新加坡MAS原则性批准（长线利好，亚太总部）；投资OpenAI $7500万。测试$80/20EMA支撑，SAR$76.96多空分界线。4/28财报关键催化，Bernstein目标$130。持有等财报。"
     },
     {
       "symbol": "CRCL.US",
       "quantity": 20,
       "avg_cost": 107.275,
       "cost_basis": 2145.50,
-      "last_price": 105.91,
-      "market_value": 2118.20,
-      "unrealized_pnl": -27.30,
-      "unrealized_pnl_pct": -1.27,
+      "last_price": 100.01,
+      "market_value": 2000.20,
+      "unrealized_pnl": -145.30,
+      "unrealized_pnl_pct": -6.77,
       "currency": "USD",
       "sector": "fintech_crypto",
       "entry_date": "2026-04-17",
       "entry_session": "premarket",
-      "notes": "试探仓位（1.8%）。收盘$105.91(-1.44%)。USDC $683亿(+72% YoY)，SEC稳定币立法进程加速。轻微亏损-1.3%，论据不变。持有。"
+      "notes": "试探仓位(1.7%)。收盘$100.01(-4.17%)。USDC流通$753B，稳定币立法加速。随整体成长股弱势，论据不变。持有。"
     }
   ],
   "pending_orders": [],
   "summary": {
-    "total_market_value": 109799.36,
+    "total_market_value": 111229.06,
     "total_cost_basis": 92452.43,
-    "total_unrealized_pnl": 17346.93,
-    "total_unrealized_pnl_pct": 18.76,
+    "total_unrealized_pnl": 18776.63,
+    "total_unrealized_pnl_pct": 20.31,
     "cash_balance": 7516.00,
-    "portfolio_value": 117315.36,
-    "cumulative_pnl": 17315.36,
-    "cumulative_pnl_pct": 17.32,
+    "portfolio_value": 118745.06,
+    "cumulative_pnl": 18745.06,
+    "cumulative_pnl_pct": 18.75,
+    "daily_pnl": -2307.55,
+    "daily_pnl_pct": -1.91,
     "sector_allocation": {
       "ai_semiconductor": {
-        "value": 74785.83,
-        "pct": 63.7,
-        "warning": "超出60%软上限，被动超配（SOXL+7.14%），下次加仓优先再平衡"
+        "value": 71513.76,
+        "pct": 60.2,
+        "note": "刚好回到60%软上限以内（SOXL+6.75%，其他回调）"
       },
       "space": {
-        "value": 26089.08,
-        "pct": 22.2
+        "value": 25527.60,
+        "pct": 21.5
       },
       "fintech_crypto": {
-        "value": 8924.45,
-        "pct": 7.6
+        "value": 8265.70,
+        "pct": 7.0
+      },
+      "index_etf": {
+        "value": 5922.00,
+        "pct": 5.0
       },
       "cash": {
         "value": 7516.00,
-        "pct": 6.4
+        "pct": 6.3
       }
     },
-    "note": "4/18 盘后（北京~04:30，对应美股4/17收盘）。无新交易。Nasdaq连涨13日（1992年来最长），Mag7 8日新增市值$2.51T历史记录。SOXL+7.14%最强，TQQQ+3.83%，HOOD+4.49%。NBIS-4.96%技术性回调（RSI 75.2，非基本面）。ASTS-5.95%发射前压力（明日4/19 BlueBird 7）。RKLB+2.25%完成Mynaric收购。Cerebras IPO文件披露（CBRS），AI芯片赛道持续扩张。AI/半导体超配63.7%需注意。累计+17.32%。"
+    "note": "4/24 盘后。无新交易。今日主题：成长股高beta普跌（RKLB-6%、ASTS-7%、HOOD-5.5%），半导体逆势走强（SOXL+6.75%）。Intel Q1营收大超+9.9%，Lam Research净利+14.5%，半导体超级周期再确认。ASTS获FCC历史性商业授权（248颗卫星/AT&T/Verizon），股价回吐，浮亏-18.08%，止损审查线$72.10。HOOD测试$80支撑，4/28财报关键。累计+18.75%。"
   }
 }
