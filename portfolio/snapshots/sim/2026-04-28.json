@@ -1,0 +1,36 @@
+{
+  "date": "2026-04-28",
+  "session": "postmarket",
+  "timestamp_beijing": "2026-04-29 04:30",
+  "portfolio_value": 114087.36,
+  "cash_balance": 13127.46,
+  "total_market_value": 100959.90,
+  "total_unrealized_pnl": 15813.50,
+  "cumulative_pnl": 14087.36,
+  "cumulative_pnl_pct": 14.09,
+  "daily_pnl": -2137.64,
+  "daily_pnl_pct": -1.84,
+  "positions": [
+    { "symbol": "NVDA.US", "qty": 108, "close": 213.170, "market_value": 23022.36, "pnl_pct": 17.22 },
+    { "symbol": "RKLB.US", "qty": 231, "close": 78.590,  "market_value": 18154.29, "pnl_pct": 11.65 },
+    { "symbol": "CRWV.US", "qty": 173, "close": 105.530, "market_value": 18256.69, "pnl_pct": 17.69 },
+    { "symbol": "SOXL.US", "qty": 150, "close": 109.560, "market_value": 16434.00, "pnl_pct": 65.87 },
+    { "symbol": "NBIS.US", "qty": 81,  "close": 135.510, "market_value": 10976.31, "pnl_pct": 10.99 },
+    { "symbol": "TQQQ.US", "qty": 100, "close": 60.740,  "market_value": 6074.00,  "pnl_pct": 19.02 },
+    { "symbol": "HOOD.US", "qty": 75,  "close": 82.070,  "market_value": 6155.25,  "pnl_pct": -7.96 },
+    { "symbol": "CRCL.US", "qty": 20,  "close": 94.350,  "market_value": 1887.00,  "pnl_pct": -12.05 }
+  ],
+  "sector_allocation": {
+    "ai_semiconductor": { "value": 68689.36, "pct": 60.2 },
+    "space":            { "value": 18154.29, "pct": 15.9 },
+    "fintech_crypto":   { "value": 8042.25,  "pct": 7.0  },
+    "index_etf":        { "value": 6074.00,  "pct": 5.3  },
+    "cash":             { "value": 13127.46, "pct": 11.5 }
+  },
+  "key_events": [
+    "HOOD Q1大幅不及预期：营收miss 9.3%，加密收入-47%，盘后-5.9%至$77.17",
+    "SOXL -11.2%，OpenAI余震+半导体板块抛售",
+    "4/29盘后：NBIS Q1财报+Alphabet+Microsoft双财报（全年最关键催化剂）",
+    "ASTS已全仓止损（本日盘中，实现亏损-$1,694）"
+  ]
+}
